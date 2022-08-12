@@ -1,0 +1,347 @@
+====Alpha====
+>OD995392.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>MW571136.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/GHA/WACCBIP_nCoV_GS153/2021, complete genome
+>MZ447819.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MA-MASPHL-03883/2021, complete genome
+>MZ216904.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CT-CDC-QDX24365481/2021, complete genome
+>MW854297.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/ITA/Naples_Ceinge-02/2021, complete genome
+>MW558280.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MN-MDH-2576/2021, complete genome
+>OU443336.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>MZ056105.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/TN-CDC-2-4215214/2021, complete genome
+>OU476099.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>MZ039667.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NC-CDC-LC0044320/2021, complete genome
+====Beta====
+>MW763128.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MAMC_00010/2021, complete genome
+>ON279262.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/FRA/IHUCOVID-036079-NovaE/2021, complete genome
+>MW929796.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-QDX23355457/2021, complete genome
+====Delta====
+>OK189649.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/IND/Barcode40MN908947.3/2021, complete genome
+>OU803541.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>MZ712884.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-BIE-LSUH001647/2021, complete genome
+>OU858487.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL727111.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/VA-CDC-QDX30945055/2021, complete genome
+>OM997238.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-EVTL9543/2021, complete genome
+>OM067012.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/BHR/21490112803_S34_L001/2021, complete genome
+>OK601707.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/SC-CDC-ASC210411600/2021, complete genome
+>OU532728.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>MZ998478.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CO-CDC-MMB09614650/2021, complete genome
+>OU593904.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU798538.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU348525.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>MZ634176.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-BIE-LSUH001345/2021, complete genome
+>OU348444.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU394816.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU860418.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL887721.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/IN-CDC-ASC210426644/2021, complete genome
+>MZ798359.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LSUH900070/2021, complete genome
+>MZ712932.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-BIE-LSUH001790/2021, complete genome
+>OL836634.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NV-CDC-LC0401123/2021, complete genome
+>OK016016.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-ASC210208916/2021, complete genome
+>MZ733646.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/OSPHL01644/2021, complete genome
+>MZ681777.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-BIE-LSUH001524/2021, complete genome
+>MZ576179.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-BIE-LSUH001084/2021, complete genome
+>OL709201.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/TX-CDC-QDX31091892/2021, complete genome
+>MZ634169.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-BIE-LSUH001336/2021, complete genome
+>MZ356901.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/IND/THSTI_556/2021, complete genome
+>MZ958752.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/OSPHL02218/2021, complete genome
+>OU348296.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU733161.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OK104647.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/EGY/CCHE57357_W4_A061/2021, complete genome
+>OL714086.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MA-CDCBI-CRSP_S4AQB4XXWRYRXTDU/2021, complete genome
+>OU348400.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL744027.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NJ-CDC-2-5184119/2021, complete genome
+>OV317888.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL711152.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NY-CDC-FG-173491/2021, complete genome
+>ON334052.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MP-CDC-2-5714844/2021, complete genome
+>OL784451.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NY-CDC-FG-181634/2021, complete genome
+>OU706392.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OL777262.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-ASC210457114/2021, complete genome
+>OL711409.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-FG-172641/2021, complete genome
+>OU662042.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU804783.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>MZ356904.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/IND/THSTI_164566/2021, complete genome
+>OK104613.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/EGY/CCHE57357_W4_A027/2021, complete genome
+>OU983317.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OV113027.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OU706828.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>MZ505746.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-BIE-LSUH000935/2021, complete genome
+>OM088546.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-FG-209495/2021, complete genome
+>MZ682056.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/OSPHL01464/2021, complete genome
+>OL902410.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/UT-UPHL-211203813188/2021, complete genome
+>OV104437.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>ON284296.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/FRA/IHUCOVID-021059_Nova1/2021, complete genome
+>OU491030.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>ON005391.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/TWN/CGMH-CGU-87/2021, complete genome
+>MZ436591.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LSUH000677E2S1/2021, complete genome
+>MZ798318.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LSUH001822/2021, complete genome
+>OV109538.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OM017117.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/PRT/PT_CBR_271938/2021, complete genome
+>OU810613.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL948899.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/IL-CDC-ASC210391706/2021, complete genome
+>OU857816.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OU795509.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>MZ432663.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CO-CDC-MMB08976289/2021, complete genome
+>MZ634241.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-BIE-LSUH001423/2021, complete genome
+>OL747792.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MA-CDC-ASC210480614/2021, complete genome
+>OL711294.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NY-CDC-FG-172903/2021, complete genome
+>MZ637331.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-BIE-LSUH001192/2021, complete genome
+>MZ555036.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/TX-CDC-LC0085162/2021, complete genome
+>OL700350.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MA-CDCBI-CRSP_AXECUZKVLAPT6XSL/2021, complete genome
+>ON458099.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/SUR000346900/2021, complete genome
+>LC643052.1 |Severe acute respiratory syndrome coronavirus 2 TKYTS397_2021 genomic RNA, complete genome
+>LC666928.1 |Severe acute respiratory syndrome coronavirus 2 TKYTK26816_2021 genomic RNA, complete genome
+>BS002179.1 |Severe acute respiratory syndrome coronavirus 2 hCoV-19/Japan/SZ-NIG-4-C3/2022 RNA, complete genome
+>MZ491704.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/TX-CDC-QDX25726274/2021, complete genome
+>MZ505747.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-BIE-LSUH000936/2021, complete genome
+>OK353751.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-BIE-LSUH002152/2021, complete genome
+>OL719188.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/BHR/21922000489/2021, complete genome
+>OK555092.4 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/Felis catus/THA/CU27516/2021, complete genome
+>OU390364.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU393375.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>ON447072.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/FRA/IHUCOVID-052402-Nova1M/2021, complete genome
+>OV319901.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OK041067.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/PA-M21080426/2021, complete genome
+>OU737833.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU594393.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU814922.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>MZ538371.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/TX-CDC-QDX25891010/2021, complete genome
+>OU594421.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OM462909.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/DEU/C3093/2021, complete genome
+>OK246794.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/VSP3359/2021, complete genome
+>MZ558138.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/IND/CWS_0059_55557426/2021, complete genome
+>OU347884.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU389100.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OM124657.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CO-CDPHE-2102467607/2021, complete genome
+>OL731555.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NY-CDC-ASC210459429/2021, complete genome
+>OV197920.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU348542.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU395327.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL986646.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NY-CDC-FG-194444/2021, complete genome
+>OU860027.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>ON618879.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDPH-6000007384/2021, complete genome
+>OV041705.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OU395189.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU593565.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU814454.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU898290.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OV086327.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OV316934.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU447166.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU706949.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OU491538.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU490622.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU420761.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU534039.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU422487.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU706883.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OU491519.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU422379.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL912742.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-FG-192108/2021, complete genome
+>OV091154.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU804592.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU979847.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>ON446852.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/FRA/IHUCOVID-053065-Nova1M/2021, complete genome
+>OW108286.2 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OV197408.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU900001.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU958227.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>MZ363067.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/UT-UPHL-210603761050/2021, complete genome
+>OU491040.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU395067.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL700339.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MA-CDCBI-CRSP_AFJAK6TG66B7T4NG/2021, complete genome
+>OU390982.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>ON583718.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/BRA/SP-NVBS4834GENOV827957611246/2021, complete genome
+>MZ637371.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-BIE-LSUH001256/2021, complete genome
+>OU385196.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU737555.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>MZ576120.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-BIE-LSUH000984/2021, complete genome
+>MZ953504.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-ASC210183667/2021, complete genome
+>OM922598.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/TN-VUMC-002332/2021, complete genome
+>OU348241.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU491579.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU862325.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OK379285.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/GA-CDC-MMB10177005/2021, complete genome
+>OU799937.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU819603.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OL782929.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/VA_FBCH_729/2021, complete genome
+>OU805815.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU662624.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL847987.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDPH-3000118464/2021, complete genome
+>OU706618.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>MZ637383.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-BIE-LSUH001271/2021, complete genome
+>OU662198.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU032528.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU396011.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OM214021.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MYS/M_C15462/2021, complete genome
+>OU396896.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU706400.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OM463037.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/DEU/C2166/2021, complete genome
+>MZ966304.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-BIE-FDC005/2021, complete genome
+>MZ917741.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/TG935187/2021, complete genome
+>OU392138.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>ON277561.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/FRA/IHUCOVID-033926_Nova1/2021, complete genome
+>OL727059.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/WA-CDC-QDX31003864/2021, complete genome
+>OU706969.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OU706356.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OU348396.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU858370.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OU488628.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU393732.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU534717.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU859154.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OM432925.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDPH-500027037/2021, complete genome
+>OK164495.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/TX-CDC-IBX865354162702/2021, complete genome
+>OU386248.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL966510.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/BGD/Laila_260/2021, complete genome
+>BS001465.1 |Severe acute respiratory syndrome coronavirus 2 hCoV-19/Japan/SZ-NIG-Y211022/2021 RNA, complete genome
+>OU660681.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OK239001.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-ASC210121271/2021, complete genome
+>ON287816.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/FRA/IHUCOVID-037785-Nova1M/2021, complete genome
+>OU348390.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU031856.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU859634.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL706387.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-FG-176537/2021, complete genome
+>OW414907.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL708902.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-CDC-QDX31091849/2021, complete genome
+>OU447844.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL757804.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MMR/DSMRC039/2021, complete genome
+>OL922780.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MN-CDC-ASC210398688/2021, complete genome
+>OU390043.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU390271.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU348083.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU492109.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>ON052758.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/IND/6/2021, complete genome
+>OU395222.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU997741.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL724744.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MO-CDC-QDX31201018/2021, complete genome
+>OU491438.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL991329.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/PA-CDC-LC0420001/2021, complete genome
+>OU348458.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU489107.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OU593642.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL788745.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-QDX31446444/2021, complete genome
+>OL730259.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/TN-CDC-ASC210389498/2021, complete genome
+>MW931310.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/IN-CDC-STM-000045992/2021, complete genome
+>ON266593.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/FRA/IHUCOVID-064762/2022, complete genome
+====Gamma====
+>MW520923.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MN-MDH-2399/2021, complete genome
+>MW908919.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MA-CDC-LC0029201/2021, complete genome
+>MW844536.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-LC0021578/2021, complete genome
+>ON578629.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/BRA/SP-NXBS4705GENOV701243923735/2021, complete genome
+>MW964558.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-QDX23527369/2021, complete genome
+>MZ953236.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-ASC210239375/2021, complete genome
+>MZ002566.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/PA-CDC-LC0038542/2021, complete genome
+>MZ471917.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/UT-UPHL-2105915804/2021, complete genome
+>MW912340.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/GA-CDC-STM-000041172/2021, complete genome
+>OU809862.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>MW840402.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/AZ-CDC-STM-000023349/2021, complete genome
+>MW967498.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NY-CDC-ASC210010968/2021, complete genome
+>OK126650.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-LC0127560/2021, complete genome
+>MZ780948.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MI-CDC-2-4611989/2021, complete genome
+>MZ745073.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-ASC210156645/2021, complete genome
+>OK004435.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-ASC210238213/2021, complete genome
+====Lambda====
+>MW644498.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MD-MDH-0957/2021, complete genome
+>MZ010885.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MI-CDC-IBX002609320124/2021, complete genome
+====Omicron====
+>OM339684.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-LACPHL-AH00001/2021, complete genome
+>OL672836.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/BEL/rega-20174/2021, complete genome
+>OL811753.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/GA-CDC-MMB11932788/2021, complete genome
+>OM036257.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/AL-CDC-ASC210613051/2021, complete genome
+>OL898820.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/IL-CDC-ASC210604879/2021, complete genome
+>OM194385.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-STM-7YBSYS333/2021, complete genome
+>OM703978.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/WA-CDC-ASC210648589/2022, complete genome
+>OM261865.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/LA-CDC-ASC210571400/2021, complete genome
+>OL898879.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/IL-CDC-ASC210661125/2021, complete genome
+>OL956714.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/OH-UHTL-1532/2021, complete genome
+>OM043270.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NY-CDC-LC0432089/2021, complete genome
+>OM047912.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MD-CDC-MMB12177967/2021, complete genome
+>OL988140.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-FG-193952/2021, complete genome
+>OL987316.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-FG-192969/2021, complete genome
+>OM336316.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MN-CDC-QDX32535223/2021, complete genome
+>OW510396.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL987174.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-FG-193763/2021, complete genome
+>OM074446.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/GA-CDC-MMB12208495/2021, complete genome
+>OL898866.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-ASC210661124/2021, complete genome
+>OM666975.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/ME-CDC-QDX33311353/2022, complete genome
+>OL717063.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-FG-177176/2021, complete genome
+>OM409273.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/ID-CDC-LC0481849/2022, complete genome
+>OL721912.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/AUT/SKV-282/2021, complete genome
+>OM818853.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-FG-274746/2022, complete genome
+>OM119798.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-FG-219113/2021, complete genome
+>OM139989.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-STM-H67AYEMEZ/2021, complete genome
+>OM443414.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/TX-CDC-FG-243446/2022, complete genome
+>OL815447.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/GA-CDC-STM-YNPP52544/2021, complete genome
+>OL987955.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-FG-193827/2021, complete genome
+>OM006904.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/TX-CDC-FG-194704/2021, complete genome
+>OM097174.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-ASC210629734/2021, complete genome
+>OL898860.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/TN-CDC-ASC210604882/2021, complete genome
+>OW092813.2 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL717062.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MO-CDC-ASC210713936/2021, complete genome
+>OL898870.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MD-CDC-ASC210606580/2021, complete genome
+>OM043277.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/DC-CDC-LC0432086/2021, complete genome
+>OW107887.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OL898875.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MN-CDC-ASC210661133/2021, complete genome
+>OV884214.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OM566878.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MA-CDC-ASC210602811/2022, complete genome
+>OW105400.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OM364822.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MI-CDC-ASC210565255/2022, complete genome
+>OW481598.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OM213375.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CO-CDPHE-2102519591/2021, complete genome
+>OM197458.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-ASC210643200/2021, complete genome
+>OM621148.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-FG-259225/2022, complete genome
+>OV843238.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OM773210.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/SouthAfrica/NHLS-UCT-GS-AY55/2022, complete genome
+>OM172026.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-FG-224268/2021, complete genome
+>OV884164.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OM299847.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-FG-231132/2022, complete genome
+>OM409187.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/ID-CDC-LC0481845/2022, complete genome
+>ON520167.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-STM-5ZJYW5APB/2022, complete genome
+>OM407134.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-FG-239443/2022, complete genome
+>OM958567.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NY-CDC-LC0553978/2022, complete genome
+>ON308109.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/GA-CDC-QDX35528590/2022, complete genome
+>ON151461.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NJ-CDC-LC0567437/2022, complete genome
+>OW465890.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OW409130.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>ON052605.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-QDX34746660/2022, complete genome
+>ON143227.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MN-CDC-STM-4CUQJ6FBX/2022, complete genome
+>OW422229.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OM854430.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/IN-CDC-ASC210856432/2022, complete genome
+>ON056583.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-STM-AS9HY6NWP/2022, complete genome
+>OM990427.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NY-CDC-LC0560024/2022, complete genome
+>OW414608.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OM803653.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NJ-CDC-LC0540034/2022, complete genome
+>OW500434.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OM821326.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-ASC210553227/2022, complete genome
+>OW140600.1 |Severe acute respiratory syndrome coronavirus 2 isolate RNA genome assembly, complete genome: monopartite
+>OM990605.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CT-CDC-LC0560015/2022, complete genome
+>OM651591.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/TX-CDC-FG-260731/2022, complete genome
+>ON331493.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NJ-CDC-QDX35776545/2022, complete genome
+>ON203524.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/HI-CDC-QDX35326673/2022, complete genome
+>OM368899.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-FG-241335/2022, complete genome
+>ON348088.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-STM-WUHE58F8Q/2022, complete genome
+>ON034496.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-QDX34633970/2022, complete genome
+>OM890286.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-ASC210821879/2022, complete genome
+>ON020518.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-STM-NXD6XKKE9/2022, complete genome
+>ON144380.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NJ-CDC-ASC210737600/2022, complete genome
+>ON052478.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-QDX34746653/2022, complete genome
+>OM824279.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CA-CDC-STM-E3VBE7FMS/2022, complete genome
+>OW408957.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>ON056991.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-STM-DUWQ2WTQK/2022, complete genome
+>OM843253.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/BHR/5902231260_S53_L001/2022, complete genome
+>OM844098.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/BHR/R1122690027413/2022, complete genome
+>OM947349.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-ASC210753196/2022, complete genome
+>OM752692.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MA-CDCBI-CRSP_KUCBJDYJSLSZJISZ/2022, complete genome
+>ON141834.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NY-CDC-QDX35092925/2022, complete genome
+>OM072822.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MA-CDCBI-CRSP_URIKNCKBF5674VF4/2021, complete genome
+>ON231997.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/FL-CDC-STM-GGUKGZP8J/2022, complete genome
+>OM933179.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NY-CDC-QDX34073341/2022, complete genome
+>OW515501.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>OM998782.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/PA-CDC-QDX34289597/2022, complete genome
+>ON252856.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NH-CDC-ASC210723730/2022, complete genome
+>ON251467.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MO-CDC-ASC210851313/2022, complete genome
+>ON080072.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/WI-CDC-ASC210734963/2022, complete genome
+>OM901452.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/TX-CDC-ASC210750164/2022, complete genome
+>ON348808.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NV-CDC-LC0580123/2022, complete genome
+>OW475993.1 |Severe acute respiratory syndrome coronavirus 2 genome assembly, complete genome: monopartite
+>ON453222.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/MN-CDC-QDX36263338/2022, complete genome
+>OM477154.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/CO-CDC-FG-248530/2022, complete genome
