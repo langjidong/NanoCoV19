@@ -1,0 +1,30 @@
+
+Found perl:
+   /mnt/gvol/langjidong/miniconda3/bin/perl
+   This is perl 5, version 26, subversion 2 (v5.26.2) built for x86_64-linux-thread-multi
+
+Found java:
+   /mnt/gvol/langjidong/miniconda3/bin/java
+   openjdk version "1.8.0_282"
+
+Found canu:
+   /mnt/gvol/langjidong/miniconda3/bin/canu
+   canu branch HEAD +0 changes (r10117 5638f7d9a5379373310ab62c28aa0cdbd864722d)
+
+Running job 1 based on command line options.
+Read_Frags()-- Loading target reads 1 through 959 with 1194683 bases.
+Read_Frags()-- 0.063 GB for bases, votes and info.
+
+Read_Olaps()-- Loading 6014 overlaps.
+Read_Olaps()-- 0.000 GB for overlaps..
+
+extractReads()-- Loading reads 31 to 959 (81 reads with 1193805 bases) overlaps 0 through 6014.
+extractReads()-- Loaded.
+processReads()-- Launching compute.
+processReads()-- Waiting for compute.
+
+Passed overlaps =       6014 100.0000%
+Failed overlaps =          0   0.0000%
+Output file: ./00001.red.WORKING
+
+Bye.

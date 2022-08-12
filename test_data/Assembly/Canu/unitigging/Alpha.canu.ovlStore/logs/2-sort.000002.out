@@ -1,0 +1,38 @@
+
+Found perl:
+   /mnt/gvol/langjidong/miniconda3/bin/perl
+   This is perl 5, version 26, subversion 2 (v5.26.2) built for x86_64-linux-thread-multi
+
+Found java:
+   /mnt/gvol/langjidong/miniconda3/bin/java
+   openjdk version "1.8.0_282"
+
+Found canu:
+   /mnt/gvol/langjidong/miniconda3/bin/canu
+   canu branch HEAD +0 changes (r10117 5638f7d9a5379373310ab62c28aa0cdbd864722d)
+
+Running job 2 based on command line options.
+
+Attempting to increase maximum allowed processes and open files.
+./scripts/2-sort.sh: 1: ulimit: Illegal option -u
+./scripts/2-sort.sh: 1: ulimit: Illegal option -u
+./scripts/2-sort.sh: 65: ulimit: Illegal option -u
+./scripts/2-sort.sh: 1: ulimit: Illegal option -u
+  Changed max processes per user from  to  (max ).
+  Changed max open files from 1024 to 1048576 (max 1048576).
+
+
+Finding overlaps.
+  found         75 overlaps in './Alpha.canu.ovlStore.BUILDING/bucket0001/sliceSizes'.
+
+Loading         75 overlaps using 0.00 GB of allowed (-M) 1 GB memory.
+  loading         75 overlaps from './Alpha.canu.ovlStore.BUILDING/bucket0001/slice0002'.
+
+Sorting.
+
+Writing sorted overlaps.
+  created './Alpha.canu.ovlStore.BUILDING/0002' with 75 overlaps for reads 959 to 959.
+
+Removing bucketized overlaps.
+
+Success!

@@ -1,0 +1,34 @@
+lenSuggestCircular ng10       44479 bp   lg10       1   sum      44479 bp
+lenSuggestCircular ng20       44479 bp   lg20       1   sum      44479 bp
+lenSuggestCircular ng30       44479 bp   lg30       1   sum      44479 bp
+lenSuggestCircular ng40       44479 bp   lg40       1   sum      44479 bp
+lenSuggestCircular ng50       44479 bp   lg50       1   sum      44479 bp
+lenSuggestCircular ng60       44479 bp   lg60       1   sum      44479 bp
+lenSuggestCircular ng70       44479 bp   lg70       1   sum      44479 bp
+lenSuggestCircular ng80       44479 bp   lg80       1   sum      44479 bp
+lenSuggestCircular ng90       44479 bp   lg90       1   sum      44479 bp
+lenSuggestCircular ng100      44479 bp   lg100      1   sum      44479 bp
+lenSuggestCircular ng110      44479 bp   lg110      1   sum      44479 bp
+lenSuggestCircular ng120      44479 bp   lg120      1   sum      44479 bp
+lenSuggestCircular ng130      44479 bp   lg130      1   sum      44479 bp
+lenSuggestCircular ng140      44479 bp   lg140      1   sum      44479 bp
+lenSuggestCircular sum      44479 (genomeSize 30000)
+lenSuggestCircular num          1
+lenSuggestCircular ave      44479
+lenContig ng10       44479 bp   lg10       1   sum      44479 bp
+lenContig ng20       44479 bp   lg20       1   sum      44479 bp
+lenContig ng30       44479 bp   lg30       1   sum      44479 bp
+lenContig ng40       44479 bp   lg40       1   sum      44479 bp
+lenContig ng50       44479 bp   lg50       1   sum      44479 bp
+lenContig ng60       44479 bp   lg60       1   sum      44479 bp
+lenContig ng70       44479 bp   lg70       1   sum      44479 bp
+lenContig ng80       44479 bp   lg80       1   sum      44479 bp
+lenContig ng90       44479 bp   lg90       1   sum      44479 bp
+lenContig ng100      44479 bp   lg100      1   sum      44479 bp
+lenContig ng110      44479 bp   lg110      1   sum      44479 bp
+lenContig ng120      44479 bp   lg120      1   sum      44479 bp
+lenContig ng130      44479 bp   lg130      1   sum      44479 bp
+lenContig ng140      44479 bp   lg140      1   sum      44479 bp
+lenContig sum      44479 (genomeSize 30000)
+lenContig num          1
+lenContig ave      44479

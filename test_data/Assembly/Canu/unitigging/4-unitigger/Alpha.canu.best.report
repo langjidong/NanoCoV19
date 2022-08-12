@@ -1,0 +1,63 @@
+
+ERROR RATES
+-----------
+                                                 --------threshold------
+90                           fraction error      fraction        percent
+samples                              (1e-5)         error          error
+                 --------------------------      --------       --------
+command line (-eg)                           ->  12000.00       12.0000%
+command line (-eM)                           ->  12000.00       12.0000%
+mean + std.dev       9.84 +-  12 *    21.16  ->    263.82        0.2638%  (enabled)
+median + mad         0.00 +-  12 *     0.00  ->      0.00        0.0000%
+90th percentile                              ->     48.00        0.0480%
+
+BEST EDGE FILTERING
+-------------------
+At graph threshold 12.0000%, reads:
+  available to have edges:            9
+  with at least one edge:             9
+
+At max threshold 12.0000%, reads:  (not computed)
+  available to have edges:            0
+  with at least one edge:             0
+
+At tight threshold 0.0480%, reads with:
+  both edges below threshold:         2
+  one  edge  above threshold:         6
+  both edges above threshold:         1
+  at least one edge:                  9
+
+At loose threshold 0.2638%, reads with:
+  both edges below threshold:         9
+  one  edge  above threshold:         0
+  both edges above threshold:         0
+  at least one edge:                  9
+
+
+INITIAL EDGES
+-------- ----------------------------------------
+      72 reads are contained
+     878 reads have no best edges (singleton)
+       0 reads have only one best edge (spur) 
+                0 are mutual best
+       9 reads have two best edges 
+                0 have one mutual best edge
+                9 have two mutual best edges
+
+
+FINAL EDGES
+-------- ----------------------------------------
+      72 reads are contained
+     878 reads have no best edges (singleton)
+       0 reads have only one best edge (spur) 
+                0 are mutual best
+       9 reads have two best edges 
+                0 have one mutual best edge
+                9 have two mutual best edges
+
+
+EDGE FILTERING
+-------- ------------------------------------------
+       0 reads are ignored
+       0 reads have a gap in overlap coverage
+       0 reads have lopsided best edges

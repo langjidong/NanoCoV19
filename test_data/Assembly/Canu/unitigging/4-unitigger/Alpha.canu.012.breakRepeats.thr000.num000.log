@@ -1,0 +1,12 @@
+repeatDetect()-- working on 2 tigs, with 4 threads.
+
+----------------------------------------
+Working on tig 1.
+Annotated with 61 external overlaps.
+
+Dropping repeat regions contained in a read:
+  region         0-14804     inside read     401         0-19289
+  region     29683-44479     inside read      31     19520-44479
+
+Region summary:
+  Unique interval        0-44479   
