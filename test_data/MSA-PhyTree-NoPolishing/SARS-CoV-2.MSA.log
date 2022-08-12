@@ -1,0 +1,608 @@
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Linux 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    gnode01 (AVX2, FMA3, 2003 GB RAM)
+Command: iqtree2 -s .//MSA-PhyTree/SARS-CoV-2.MSA --alrt 1000 -B 1000 -T AUTO
+Seed:    227071 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jul  4 12:38:21 2022
+Kernel:  AVX+FMA - auto-detect threads (128 CPU cores detected)
+
+Reading alignment file .//MSA-PhyTree/SARS-CoV-2.MSA ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 343 sites contain only gaps or ambiguous characters.
+Alignment has 342 sequences with 35335 columns, 10590 distinct patterns
+790 parsimony-informative, 12331 singleton sites, 22214 constant sites
+                   Gap/Ambiguity  Composition  p-value
+   1  Alpha               15.79%    failed      0.00%
+   2  Alpha_Q.7           15.73%    passed     99.34%
+   3  Alpha_Q.4           20.23%    passed     98.83%
+   4  Alpha_C.36.3        15.71%    passed     99.84%
+   5  Alpha_Q.1           15.77%    passed     99.94%
+   6  Alpha_B.1.1.318     15.80%    passed     99.89%
+   7  Alpha_Q.6           15.54%    passed     99.94%
+   8  Alpha_Q.8           15.96%    passed     99.83%
+   9  Alpha_Q.2           15.53%    passed     99.94%
+  10  Alpha_B.1.1.7       15.77%    passed     99.91%
+  11  Alpha_Q.3           15.93%    passed     99.59%
+  12  Beta_B.1.351.2      16.04%    passed     99.83%
+  13  Beta_B.1.351.3      15.91%    passed     99.80%
+  14  Beta_B.1.351        15.60%    passed     99.74%
+  15  Delta_AY.4.12       15.95%    passed     99.73%
+  16  Delta_AY.46.3       15.62%    passed     99.62%
+  17  Delta_AY.43.5       15.98%    passed     99.73%
+  18  Delta_AY.33.1       16.17%    passed     99.73%
+  19  Delta_AY.28         15.82%    passed     99.91%
+  20  Delta_AY.122.5      15.84%    passed     99.81%
+  21  Delta_AY.78         15.98%    passed     99.90%
+  22  Delta_XD            16.21%    passed     99.42%
+  23  Delta_AY.66         15.98%    passed     99.91%
+  24  Delta_AY.16.1       15.98%    passed     99.79%
+  25  Delta_AY.82         23.04%    passed     93.96%
+  26  Delta_AY.9.2.2      15.84%    passed     99.81%
+  27  Delta_AY.19         15.42%    passed     99.96%
+  28  Delta_AY.103        16.00%    passed     99.77%
+  29  Delta_AY.43.6       21.72%    passed     90.89%
+  30  Delta_AY.49         16.80%    passed     98.74%
+  31  Delta_AY.36.1       16.27%    passed     99.50%
+  32  Delta_AY.61         15.98%    passed     99.93%
+  33  Delta_AY.73         15.65%    passed     99.82%
+  34  Delta_AY.29.2       15.64%    passed     99.80%
+  35  Delta_AY.75.3       15.63%    passed     99.93%
+  36  Delta_AY.59         16.24%    passed     99.71%
+  37  Delta_AY.29.1       15.43%    passed     99.95%
+  38  Delta_AY.33.2       15.77%    passed     99.71%
+  39  Delta_AY.39.1.1     15.81%    passed     99.97%
+  40  Delta_AY.4.2.5      23.26%    passed     97.75%
+  41  Delta_AY.122.2      16.61%    passed     99.95%
+  42  Delta_AY.133        15.64%    passed     99.28%
+  43  Delta_AY.104        15.64%    passed     99.47%
+  44  Delta_AY.22         16.15%    passed     99.52%
+  45  Delta_AY.95         15.85%    passed     99.66%
+  46  Delta_AY.75.2       15.62%    passed     99.77%
+  47  Delta_AY.4.10       15.55%    passed     99.62%
+  48  Delta_AY.86         15.64%    passed     99.73%
+  49  Delta_AY.23.1       15.90%    passed     99.93%
+  50  Delta_AY.43.1       15.64%    passed     99.57%
+  51  Delta_AY.112.2      15.64%    passed     99.45%
+  52  Delta_AY.15         15.80%    passed     99.71%
+  53  Delta_AY.43.7       36.21%    failed      1.55%
+  54  Delta_AY.39.3       33.37%    passed     82.03%
+  55  Delta_AY.116        15.94%    passed     99.93%
+  56  Delta_AY.52         15.49%    passed     99.92%
+  57  Delta_AY.124.1      15.64%    passed     99.24%
+  58  Delta_AY.5.6        15.77%    passed     99.71%
+  59  Delta_AY.122.6      15.68%    passed     99.47%
+  60  Delta_AY.99.1       15.75%    passed     99.67%
+  61  Delta_AY.85         15.63%    passed     99.34%
+  62  Delta_AY.25.1.1     15.63%    passed     99.69%
+  63  Delta_AY.92         15.75%    passed     99.64%
+  64  Delta_AY.67         15.75%    passed     99.89%
+  65  Delta_AY.102        15.75%    passed     99.74%
+  66  Delta_AY.99.2       15.72%    passed     99.78%
+  67  Delta_AY.39.2       16.12%    passed     99.54%
+  68  Delta_AY.122.1      15.57%    passed     99.79%
+  69  Delta_AY.3.4        16.41%    passed     99.37%
+  70  Delta_AY.20.1       16.39%    passed     99.84%
+  71  Delta_AY.128        16.88%    passed     99.22%
+  72  Delta_AY.121.1      15.98%    passed     99.98%
+  73  Delta_AY.81         15.64%    passed     99.58%
+  74  Delta_AY.83         15.75%    passed     99.74%
+  75  Delta_AY.119.1      15.75%    passed     99.53%
+  76  Delta_AY.122.4      15.64%    passed     99.58%
+  77  Delta_AY.25.1.2     15.67%    passed     99.75%
+  78  Delta_AY.124.1.1    15.59%    passed     99.59%
+  79  Delta_AY.46.1       15.83%    passed     99.69%
+  80  Delta_AY.27         15.74%    passed     99.99%
+  81  Delta_AY.16         15.59%    passed     99.79%
+  82  Delta_AY.4.2.4      39.92%    passed     16.47%
+  83  Delta_AY.43.2       32.45%    passed     30.74%
+  84  Delta_AY.4.13       16.78%    passed     99.99%
+  85  Delta_AY.91         17.52%    passed     99.06%
+  86  Delta_AY.127.1      16.44%    passed     99.59%
+  87  Delta_AY.43.4       16.51%    passed     99.76%
+  88  Delta_AY.43.9       16.35%    passed     99.72%
+  89  Delta_AY.4.2.3      15.74%    passed     99.63%
+  90  Delta_AY.43.8       15.77%    passed     99.74%
+  91  Delta_AY.105        15.58%    passed     99.60%
+  92  Delta_AY.23.2       15.44%    passed     99.89%
+  93  Delta_AY.7.1        17.64%    passed     99.86%
+  94  Delta_AY.101        27.77%    passed     92.35%
+  95  Delta_AY.72         15.74%    passed     99.76%
+  96  Delta_AY.80         17.71%    passed     96.94%
+  97  Delta_AY.4.11       19.10%    passed     96.00%
+  98  Delta_AY.112.1      15.82%    passed     99.79%
+  99  Delta_AY.5.2        18.86%    passed     98.79%
+ 100  Delta_AY.30         15.52%    passed     99.98%
+ 101  Delta_AY.24         15.72%    passed     99.80%
+ 102  Delta_AY.109        16.49%    passed     99.28%
+ 103  Delta_AY.5.4        16.35%    passed     99.81%
+ 104  Delta_AY.10         31.76%    passed     61.19%
+ 105  Delta_AY.43.3       28.29%    passed     75.51%
+ 106  Delta_AY.125.1      18.14%    passed     98.77%
+ 107  Delta_AY.50         25.77%    passed     77.45%
+ 108  Delta_AY.23         15.95%    passed     99.90%
+ 109  Delta_AY.4.2.2      15.75%    passed     99.83%
+ 110  Delta_AY.34.2       15.75%    passed     99.50%
+ 111  Delta_AY.5.5        16.30%    passed     99.99%
+ 112  Delta_AY.5.3        15.81%    passed     99.45%
+ 113  Delta_AY.3.3        16.14%    passed     99.22%
+ 114  Delta_AY.120.2.1    20.04%    passed     94.41%
+ 115  Delta_AY.46.6       15.66%    passed     99.90%
+ 116  Delta_AY.34.1       16.49%    passed     99.68%
+ 117  Delta_AY.69         15.61%    passed     99.80%
+ 118  Delta_AY.124        15.65%    passed     99.59%
+ 119  Delta_AY.60         15.62%    passed     99.73%
+ 120  Delta_AY.53         15.80%    passed     99.94%
+ 121  Delta_AY.129        15.41%    passed     99.92%
+ 122  Delta_AY.41         16.09%    passed     99.78%
+ 123  Delta_AY.4.4        15.52%    passed     99.56%
+ 124  Delta_AY.68         18.89%    passed     98.22%
+ 125  Delta_AY.77         15.76%    passed     99.47%
+ 126  Delta_AY.37         15.44%    passed     99.95%
+ 127  Delta_AY.1          15.47%    passed     99.79%
+ 128  Delta_AY.76         21.32%    passed     93.86%
+ 129  Delta_AY.125        15.77%    passed     99.68%
+ 130  Delta_AY.55         33.02%    passed     80.35%
+ 131  Delta_AY.51         16.39%    passed     99.27%
+ 132  Delta_AY.74         15.66%    passed     99.92%
+ 133  Delta_AY.127        15.37%    passed     99.44%
+ 134  Delta_AY.121        15.37%    passed     99.73%
+ 135  Delta_AY.34         15.64%    passed     99.65%
+ 136  Delta_AY.4.2.1      17.36%    passed     99.76%
+ 137  Delta_AY.99         22.36%    passed     91.68%
+ 138  Delta_AY.108        15.62%    passed     99.84%
+ 139  Delta_AY.34.1.1     15.61%    passed     99.79%
+ 140  Delta_AY.36         17.82%    passed     99.61%
+ 141  Delta_AY.116.1      15.71%    passed     99.77%
+ 142  Delta_AY.107        16.26%    passed     99.68%
+ 143  Delta_AY.62         15.80%    passed     99.58%
+ 144  Delta_AY.48         15.80%    passed     99.81%
+ 145  Delta_AY.120.1      15.92%    passed     98.92%
+ 146  Delta_AY.64         15.87%    passed     99.93%
+ 147  Delta_AY.106        36.27%    passed     53.35%
+ 148  Delta_AY.4.8        16.56%    passed     99.94%
+ 149  Delta_AY.71         25.09%    passed     99.51%
+ 150  Delta_AY.20         15.81%    passed     99.48%
+ 151  Delta_AY.113        15.81%    passed     99.44%
+ 152  Delta_AY.29         15.42%    passed     99.93%
+ 153  Delta_AY.7.2        35.15%    passed     89.59%
+ 154  Delta_AY.98.1       16.13%    passed     99.91%
+ 155  Delta_AY.4.6        35.43%    passed     26.23%
+ 156  Delta_AY.17         17.12%    passed     99.63%
+ 157  Delta_AY.45         16.48%    passed     99.86%
+ 158  Delta_AY.94         39.00%    passed     93.07%
+ 159  Delta_AY.42         18.02%    passed     97.84%
+ 160  Delta_AY.4.5        17.37%    passed     99.49%
+ 161  Delta_AY.5.1        23.42%    passed     83.13%
+ 162  Delta_AY.9.2        16.90%    passed     99.70%
+ 163  Delta_AY.117        15.95%    passed     98.78%
+ 164  Delta_AY.100        15.81%    passed     99.54%
+ 165  Delta_AY.114        15.84%    passed     99.70%
+ 166  Delta_AY.118        15.76%    passed     99.69%
+ 167  Delta_AY.14         15.68%    passed     99.66%
+ 168  Delta_AY.25.3       15.76%    passed     99.63%
+ 169  Delta_AY.46.4       15.77%    passed     99.66%
+ 170  Delta_AY.54         15.76%    passed     99.69%
+ 171  Delta_AY.119.2      15.72%    passed     99.78%
+ 172  Delta_AY.110        15.76%    passed     99.61%
+ 173  Delta_AY.25.1       15.75%    passed     99.62%
+ 174  Delta_AY.4.3        17.32%    passed     99.76%
+ 175  Delta_AY.84         38.58%    passed     72.14%
+ 176  Delta_AY.47         15.61%    passed     99.63%
+ 177  Delta_AY.119        15.51%    passed     99.56%
+ 178  Delta_AY.4.7        24.51%    passed     39.62%
+ 179  Delta_AY.43         15.61%    passed     99.97%
+ 180  Delta_AY.4.9        16.31%    passed     99.25%
+ 181  Delta_AY.38         15.63%    passed     99.89%
+ 182  Delta_AY.26         16.13%    passed     99.91%
+ 183  Delta_AY.46.5       16.83%    passed     98.65%
+ 184  Delta_AY.75         17.74%    passed     97.00%
+ 185  Delta_AY.39.1       35.51%    passed     92.24%
+ 186  Delta_AY.87         16.47%    passed     99.82%
+ 187  Delta_AY.88         16.91%    passed     99.80%
+ 188  Delta_AY.32         40.27%    passed     20.07%
+ 189  Delta_AY.46.2       30.47%    passed     23.21%
+ 190  Delta_AY.65         17.34%    passed     99.71%
+ 191  Delta_AY.33         34.21%    passed     26.23%
+ 192  Delta_AY.70         17.20%    passed     98.83%
+ 193  Delta_AY.112        28.98%    passed     51.52%
+ 194  Delta_AY.46         16.59%    passed     99.97%
+ 195  Delta_AY.4.2        16.51%    passed     99.88%
+ 196  Delta_AY.90         16.45%    passed     99.77%
+ 197  Delta_AY.4.1        16.32%    passed     99.93%
+ 198  Delta_AY.58         16.91%    passed     99.67%
+ 199  Delta_AY.6          16.48%    passed     99.77%
+ 200  Delta_AY.35         15.74%    passed     99.86%
+ 201  Delta_AY.13         15.49%    passed     99.70%
+ 202  Delta_AY.3.1        15.51%    passed     99.84%
+ 203  Delta_AY.39         24.51%    passed     94.48%
+ 204  Delta_AY.9          21.30%    passed     90.11%
+ 205  Delta_AY.5          17.37%    passed     99.63%
+ 206  Delta_AY.120.2      23.86%    passed     92.43%
+ 207  Delta_AY.79         32.32%    passed     85.25%
+ 208  Delta_AY.7          17.37%    passed     99.58%
+ 209  Delta_AY.122        17.37%    passed     99.69%
+ 210  Delta_AY.111        19.03%    passed     96.84%
+ 211  Delta_AY.98         19.75%    passed     96.53%
+ 212  Delta_AY.11         17.02%    passed     99.99%
+ 213  Delta_AY.4          18.53%    passed     99.32%
+ 214  Delta_AY.3          15.72%    passed     99.82%
+ 215  Delta_AY.2          15.54%    passed     99.80%
+ 216  Delta_AY.25         17.81%    passed     96.85%
+ 217  Delta_AY.44         15.59%    passed     99.71%
+ 218  Delta_AY.120        15.80%    passed     99.51%
+ 219  Delta_AY.126        15.92%    passed     99.57%
+ 220  Delta_AY.57         18.08%    passed     98.16%
+ 221  Delta_AY.8          15.76%    passed     99.85%
+ 222  Delta_B.1.617.2     15.61%    passed     99.59%
+ 223  Gamma_P.1.11        15.61%    passed     99.78%
+ 224  Gamma_P.1.16        16.54%    passed     99.91%
+ 225  Gamma_P.1.4         16.10%    passed     99.94%
+ 226  Gamma_P.1.9         15.59%    passed     99.66%
+ 227  Gamma_P.1.12.1      15.58%    passed     99.89%
+ 228  Gamma_P.1.7         15.84%    passed     99.69%
+ 229  Gamma_P.1.7.1       16.67%    passed     99.51%
+ 230  Gamma_P.1.14        15.60%    passed     99.84%
+ 231  Gamma_P.1.13        15.92%    passed     99.82%
+ 232  Gamma_P.1.2         15.42%    passed     99.67%
+ 233  Gamma_P.1.12        15.73%    passed     99.88%
+ 234  Gamma_P.1.15        15.59%    passed     99.75%
+ 235  Gamma_P.1.1         15.92%    passed     99.80%
+ 236  Gamma_P.1.10        15.92%    passed     99.85%
+ 237  Gamma_P.1.17        15.44%    passed     99.76%
+ 238  Gamma_P.1           15.61%    passed     99.79%
+ 239  Lambda_C.37.1       15.66%    passed     99.90%
+ 240  Lambda_C.37         16.37%    passed     99.74%
+ 241  Omicron_BA.2.11     15.52%    passed     98.76%
+ 242  Omicron_XQ          15.88%    passed     99.21%
+ 243  Omicron_BA.2.3.1    15.52%    passed     98.77%
+ 244  Omicron_XL          15.98%    passed     99.71%
+ 245  Omicron_BA.2.28     16.09%    passed     99.11%
+ 246  Omicron_BA.2.13     15.88%    passed     99.02%
+ 247  Omicron_BA.5        15.90%    passed     99.30%
+ 248  Omicron_BA.4        15.92%    passed     99.31%
+ 249  Omicron_XN          15.88%    passed     99.11%
+ 250  Omicron_BA.1.4      25.41%    passed     99.07%
+ 251  Omicron_BA.2.24     21.15%    passed     93.32%
+ 252  Omicron_BA.1.1.5    37.85%    passed     68.50%
+ 253  Omicron_BA.3        16.77%    passed     99.86%
+ 254  Omicron_BA.2.9.1    15.77%    passed     99.40%
+ 255  Omicron_BA.2.15     15.90%    passed     99.16%
+ 256  Omicron_BA.2.29     15.88%    passed     99.24%
+ 257  Omicron_BA.2.19     16.16%    passed     97.21%
+ 258  Omicron_BA.2.33     23.59%    passed     95.71%
+ 259  Omicron_BA.2.16     15.90%    passed     99.34%
+ 260  Omicron_BA.2.22     30.11%    passed     91.68%
+ 261  Omicron_BA.2.14     16.15%    passed     99.23%
+ 262  Omicron_BA.2.18     15.52%    passed     99.10%
+ 263  Omicron_BA.2.30     15.92%    passed     99.03%
+ 264  Omicron_BA.2.8      15.88%    passed     99.30%
+ 265  Omicron_XE          15.76%    passed     99.79%
+ 266  Omicron_BA.2.20     15.53%    passed     98.79%
+ 267  Omicron_BA.2.34     15.62%    passed     99.31%
+ 268  Omicron_BA.2.31     15.88%    passed     99.19%
+ 269  Omicron_BA.2.17     15.88%    passed     99.10%
+ 270  Omicron_BA.2.3.2    15.88%    passed     98.58%
+ 271  Omicron_BA.2.3.4    15.52%    passed     98.68%
+ 272  Omicron_BA.3.1      15.90%    passed     99.83%
+ 273  Omicron_BA.2.21     15.87%    passed     99.16%
+ 274  Omicron_BA.2.26     15.79%    passed     98.71%
+ 275  Omicron_BA.2.25.1   19.06%    passed     98.96%
+ 276  Omicron_BA.2.12.1   15.87%    passed     99.11%
+ 277  Omicron_BA.2.6      15.73%    passed     99.41%
+ 278  Omicron_BA.1.17.1   28.54%    passed     61.06%
+ 279  Omicron_BA.1.22     40.06%    passed     34.35%
+ 280  Omicron_BA.1.2      16.97%    passed     99.94%
+ 281  Omicron_BA.2.9.2    15.88%    passed     98.90%
+ 282  Omicron_XG          15.75%    passed     99.38%
+ 283  Omicron_BA.2.3.3    15.75%    passed     99.28%
+ 284  Omicron_BA.2.2      15.86%    passed     99.01%
+ 285  Omicron_BA.2.4      15.65%    passed     99.51%
+ 286  Omicron_BA.2.5      15.78%    passed     98.82%
+ 287  Omicron_BA.1.13.1   15.62%    passed     99.95%
+ 288  Omicron_BA.2.25     15.72%    passed     99.59%
+ 289  Omicron_BA.2.32     15.66%    passed     99.36%
+ 290  Omicron_BA.2.23     16.14%    passed     99.40%
+ 291  Omicron_BA.1.9      15.99%    passed     99.96%
+ 292  Omicron_BA.2.7      15.89%    passed     97.64%
+ 293  Omicron_BA.1.1.12   15.89%    passed     99.97%
+ 294  Omicron_BA.2.1      15.62%    passed     99.34%
+ 295  Omicron_BA.1.21     18.12%    passed     97.40%
+ 296  Omicron_BA.1.1.9    15.81%    passed     99.98%
+ 297  Omicron_BA.1.8      15.59%    passed     99.76%
+ 298  Omicron_BA.2.27     15.68%    passed     99.16%
+ 299  Omicron_BA.1.7      15.64%    passed     99.96%
+ 300  Omicron_BA.1.21.1   16.35%    passed     99.99%
+ 301  Omicron_XS          16.07%    passed     99.82%
+ 302  Omicron_BA.1.14.2   16.16%    passed     99.99%
+ 303  Omicron_BA.2.12     15.75%    passed     98.83%
+ 304  Omicron_BA.2.10.1   16.05%    passed     99.67%
+ 305  Omicron_BA.1.12     15.81%    passed     99.98%
+ 306  Omicron_BA.2.3      15.75%    passed     98.69%
+ 307  Omicron_BA.1.3      15.68%    passed     99.96%
+ 308  Omicron_BA.1.1.4    15.80%    passed     99.99%
+ 309  Omicron_B.1.1.529   16.10%    passed     99.97%
+ 310  Omicron_BA.2.10     15.75%    passed     98.96%
+ 311  Omicron_BA.1.1.13   15.90%    passed     99.87%
+ 312  Omicron_BA.1.5      15.83%    passed     99.98%
+ 313  Omicron_BA.1.1.11   15.46%    passed     99.57%
+ 314  Omicron_BA.1.6      15.69%    passed     99.98%
+ 315  Omicron_BA.2        15.78%    passed     98.94%
+ 316  Omicron_BA.1.14.1   15.49%    passed     99.94%
+ 317  Omicron_BA.1.14     15.96%    passed     99.94%
+ 318  Omicron_BA.1.16     15.77%    passed     99.99%
+ 319  Omicron_BA.2.9      15.67%    passed     99.22%
+ 320  Omicron_BA.1.1.7    18.45%    passed     99.29%
+ 321  Omicron_BA.1.1.1    15.69%    passed     99.97%
+ 322  Omicron_BA.1.1.16   16.21%    passed     99.92%
+ 323  Omicron_BA.1.19     15.90%    passed     99.98%
+ 324  Omicron_BA.1.1.17   16.51%    passed     99.80%
+ 325  Omicron_BA.1.15.2   15.71%    passed     99.96%
+ 326  Omicron_BA.1.1.6    15.71%    passed     99.93%
+ 327  Omicron_BA.1.1.2    15.64%    passed     99.97%
+ 328  Omicron_BA.1.15.1   16.11%    passed     99.91%
+ 329  Omicron_BA.1.1.18   15.71%    passed     99.95%
+ 330  Omicron_BA.1.1.15   15.48%    passed     99.63%
+ 331  Omicron_BA.1.1.10   15.87%    passed     99.98%
+ 332  Omicron_BA.1.17     15.94%    passed     99.73%
+ 333  Omicron_BA.1.1.8    16.43%    passed     99.99%
+ 334  Omicron_BA.1.18     15.78%    passed    100.00%
+ 335  Omicron_BA.1.20     15.84%    passed    100.00%
+ 336  Omicron_BA.1.1.14   15.68%    passed     99.99%
+ 337  Omicron_BA.1.15     15.55%    passed     99.99%
+ 338  Omicron_BA.1.1      16.34%    passed     99.61%
+ 339  Omicron_BA.1.13     15.83%    passed     99.97%
+ 340  Omicron_BA.1.17.2   15.67%    passed     99.98%
+ 341  Omicron_BA.1.10     15.72%    passed     99.94%
+ 342  Omicron_BA.1        15.99%    passed     99.98%
+****  TOTAL               17.63%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.741 seconds
+Measuring multi-threading efficiency up to 128 CPU cores
+Increase to 10 rounds for branch lengths
+29 trees examined
+Threads: 1 / Time: 131.919 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -157094
+Threads: 2 / Time: 92.063 sec / Speedup: 1.433 / Efficiency: 72% / LogL: -157094
+Threads: 3 / Time: 48.062 sec / Speedup: 2.745 / Efficiency: 91% / LogL: -157094
+Threads: 4 / Time: 36.519 sec / Speedup: 3.612 / Efficiency: 90% / LogL: -157094
+Threads: 5 / Time: 30.401 sec / Speedup: 4.339 / Efficiency: 87% / LogL: -157094
+Threads: 6 / Time: 26.990 sec / Speedup: 4.888 / Efficiency: 81% / LogL: -157094
+Threads: 7 / Time: 38.211 sec / Speedup: 3.452 / Efficiency: 49% / LogL: -157094
+BEST NUMBER OF THREADS: 6
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -100835.573
+2. Current log-likelihood: -100832.520
+3. Current log-likelihood: -100829.003
+4. Current log-likelihood: -100826.033
+5. Current log-likelihood: -100823.540
+6. Current log-likelihood: -100821.367
+7. Current log-likelihood: -100819.472
+8. Current log-likelihood: -100817.761
+9. Current log-likelihood: -100816.275
+10. Current log-likelihood: -100814.946
+11. Current log-likelihood: -100813.727
+12. Current log-likelihood: -100812.571
+13. Current log-likelihood: -100811.523
+Optimal log-likelihood: -100810.520
+Rate parameters:  A-C: 0.33597  A-G: 2.06552  A-T: 0.17954  C-G: 0.28642  C-T: 3.87124  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.183  G: 0.196  T: 0.321
+Proportion of invariable sites: 0.171
+Gamma shape alpha: 1.232
+Parameters optimization took 13 rounds (12.723 sec)
+Time for fast ML tree search: 39.904 seconds
+
+NOTE: ModelFinder requires 1215 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 35335) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         101165.375   689 203708.751   203736.195   209546.392
+  2  GTR+F+I       100959.832   690 203299.663   203327.188   209145.777
+  3  GTR+F+G4      100783.532   690 202947.064   202974.589   208793.178
+  4  GTR+F+I+G4    100792.813   691 202967.625   202995.231   208822.212
+  5  GTR+F+R2      100432.387   691 202246.774   202274.380   208101.361
+  6  GTR+F+R3      100398.094   693 202182.189   202209.956   208053.721
+  7  GTR+F+R4      100378.123   695 202146.247   202174.176   208034.724
+  8  GTR+F+R5      100358.387   697 202110.774   202138.866   208016.196
+  9  GTR+F+R6      100343.878   699 202085.757   202114.012   208008.125
+ 10  GTR+F+R7      100335.948   701 202073.896   202102.314   208013.209
+ 21  SYM+R5        102021.085   694 205430.169   205458.017   211310.174
+ 22  SYM+R6        102011.410   696 205414.821   205442.831   211311.771
+ 34  TVM+F+R5      100409.251   696 202210.502   202238.513   208107.452
+ 35  TVM+F+R6      100404.148   698 202204.296   202232.469   208118.191
+ 47  TVMe+R5       102074.555   693 205535.109   205562.877   211406.641
+ 48  TVMe+R6       102066.911   695 205523.821   205551.751   211412.299
+ 60  TIM3+F+R5     100488.710   695 202367.419   202395.349   208255.897
+ 61  TIM3+F+R6     100486.597   697 202367.194   202395.286   208272.617
+ 73  TIM3e+R5      102077.907   692 205539.815   205567.501   211402.874
+ 74  TIM3e+R6      102071.368   694 205530.737   205558.585   211410.741
+ 86  TIM2+F+R5     100419.918   695 202229.835   202257.764   208118.312
+ 87  TIM2+F+R6     100414.924   697 202223.847   202251.939   208129.270
+ 99  TIM2e+R5      102130.466   692 205644.932   205672.619   211507.992
+100  TIM2e+R6      102125.617   694 205639.234   205667.082   211519.239
+112  TIM+F+R5      100404.324   695 202198.648   202226.578   208087.126
+113  TIM+F+R6      100398.165   697 202190.331   202218.422   208095.753
+125  TIMe+R5       102103.016   692 205590.031   205617.718   211453.091
+126  TIMe+R6       102095.840   694 205579.681   205607.529   211459.686
+138  TPM3u+F+R5    100553.052   694 202494.103   202521.951   208374.108
+139  TPM3u+F+R6    100552.943   696 202497.886   202525.896   208394.836
+151  TPM3+F+R5     100553.051   694 202494.103   202521.951   208374.107
+152  TPM3+F+R6     100552.938   696 202497.876   202525.887   208394.826
+164  TPM2u+F+R5    100475.426   694 202338.852   202366.700   208218.857
+165  TPM2u+F+R6    100473.021   696 202338.043   202366.053   208234.993
+177  TPM2+F+R5     100475.426   694 202338.852   202366.701   208218.857
+178  TPM2+F+R6     100473.019   696 202338.039   202366.049   208234.989
+190  K3Pu+F+R5     100470.317   694 202328.634   202356.482   208208.639
+191  K3Pu+F+R6     100468.311   696 202328.623   202356.633   208225.573
+203  K3P+R5        102164.728   691 205711.455   205739.061   211566.042
+204  K3P+R6        102158.825   693 205703.650   205731.417   211575.182
+216  TN+F+R5       100503.487   694 202394.975   202422.823   208274.979
+217  TN+F+R6       100501.743   696 202395.487   202423.497   208292.437
+229  TNe+R5        102153.104   691 205688.207   205715.813   211542.794
+230  TNe+R6        102148.455   693 205682.909   205710.676   211554.441
+242  HKY+F+R5      100565.695   693 202517.391   202545.158   208388.923
+243  HKY+F+R6      100565.143   695 202520.286   202548.215   208408.763
+255  K2P+R5        102211.253   690 205802.505   205830.030   211648.619
+256  K2P+R6        102208.506   692 205801.012   205828.699   211664.072
+268  F81+F+R5      101992.402   692 205368.803   205396.490   211231.863
+269  F81+F+R6      101992.125   694 205372.250   205400.098   211252.255
+281  JC+R5         103468.007   689 208314.014   208341.458   214151.655
+282  JC+R6         103467.972   691 208317.944   208345.549   214172.530
+Akaike Information Criterion:           GTR+F+R7
+Corrected Akaike Information Criterion: GTR+F+R7
+Bayesian Information Criterion:         GTR+F+R6
+Best-fit model: GTR+F+R6 chosen according to BIC
+
+All model information printed to .//MSA-PhyTree/SARS-CoV-2.MSA.model.gz
+CPU time for ModelFinder: 30426.271 seconds (8h:27m:6s)
+Wall-clock time for ModelFinder: 5254.023 seconds (1h:27m:34s)
+Generating 1000 samples for ultrafast bootstrap (seed: 227071)...
+
+NOTE: 745 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -100343.878
+Optimal log-likelihood: -100343.804
+Rate parameters:  A-C: 0.52340  A-G: 1.84476  A-T: 0.32149  C-G: 0.32422  C-T: 2.87472  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.183  G: 0.196  T: 0.321
+Site proportion and rates:  (0.457,0.302) (0.133,1.030) (0.132,1.030) (0.132,1.030) (0.130,1.030) (0.016,19.836)
+Parameters optimization took 1 rounds (3.585 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.462938 sec (of wall-clock time) 2.728926 sec(of CPU time)
+Computing RapidNJ tree took 0.853579 sec (of wall-clock time) 3.113466 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -101162.754
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 66.745 second
+Computing log-likelihood of 98 initial trees ... 20.172 seconds
+Current best score: -100323.516
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -100273.942
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -100267.192
+Iteration 10 / LogL: -100302.514 / Time: 0h:4m:11s
+Iteration 20 / LogL: -100335.116 / Time: 0h:6m:25s
+Finish initializing candidate tree set (20)
+Current best tree score: -100267.192 / CPU time: 374.182
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -100265.522
+Iteration 30 / LogL: -100285.805 / Time: 0h:7m:37s (0h:24m:25s left)
+Iteration 40 / LogL: -100304.863 / Time: 0h:8m:45s (0h:18m:38s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -100263.272
+Iteration 50 / LogL: -100277.910 / Time: 0h:9m:59s (0h:19m:10s left)
+Log-likelihood cutoff on original alignment: -100369.922
+Iteration 60 / LogL: -100284.825 / Time: 0h:11m:11s (0h:15m:55s left)
+Iteration 70 / LogL: -100282.482 / Time: 0h:12m:17s (0h:13m:10s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 79: -100257.620
+Iteration 80 / LogL: -100267.981 / Time: 0h:13m:35s (0h:17m:1s left)
+Iteration 90 / LogL: -100280.104 / Time: 0h:14m:38s (0h:14m:38s left)
+Iteration 100 / LogL: -100268.468 / Time: 0h:15m:41s (0h:12m:31s left)
+Log-likelihood cutoff on original alignment: -100369.922
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 110 / LogL: -100284.022 / Time: 0h:16m:47s (0h:13m:52s left)
+Iteration 120 / LogL: -100308.130 / Time: 0h:18m:2s (0h:12m:7s left)
+Iteration 130 / LogL: -100282.835 / Time: 0h:19m:9s (0h:10m:23s left)
+Iteration 140 / LogL: -100287.432 / Time: 0h:20m:14s (0h:8m:44s left)
+Iteration 150 / LogL: -100287.717 / Time: 0h:21m:31s (0h:7m:13s left)
+Log-likelihood cutoff on original alignment: -100369.922
+Iteration 160 / LogL: -100263.124 / Time: 0h:22m:46s (0h:5m:43s left)
+Iteration 170 / LogL: -100285.496 / Time: 0h:23m:47s (0h:4m:13s left)
+Iteration 180 / LogL: -100298.272 / Time: 0h:25m:2s (0h:2m:47s left)
+TREE SEARCH COMPLETED AFTER 180 ITERATIONS / Time: 0h:25m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -100257.620
+2. Current log-likelihood: -100257.573
+3. Current log-likelihood: -100257.520
+4. Current log-likelihood: -100257.468
+5. Current log-likelihood: -100257.425
+6. Current log-likelihood: -100257.375
+7. Current log-likelihood: -100257.329
+8. Current log-likelihood: -100257.285
+9. Current log-likelihood: -100257.250
+10. Current log-likelihood: -100257.210
+11. Current log-likelihood: -100257.177
+12. Current log-likelihood: -100257.135
+13. Current log-likelihood: -100257.103
+14. Current log-likelihood: -100257.069
+15. Current log-likelihood: -100257.034
+16. Current log-likelihood: -100256.999
+17. Current log-likelihood: -100256.968
+18. Current log-likelihood: -100256.937
+19. Current log-likelihood: -100256.903
+20. Current log-likelihood: -100256.869
+21. Current log-likelihood: -100256.841
+22. Current log-likelihood: -100256.814
+23. Current log-likelihood: -100256.796
+24. Current log-likelihood: -100256.773
+25. Current log-likelihood: -100256.757
+26. Current log-likelihood: -100256.734
+27. Current log-likelihood: -100256.718
+28. Current log-likelihood: -100256.697
+29. Current log-likelihood: -100256.678
+30. Current log-likelihood: -100256.657
+31. Current log-likelihood: -100256.645
+32. Current log-likelihood: -100256.629
+33. Current log-likelihood: -100256.609
+34. Current log-likelihood: -100256.590
+35. Current log-likelihood: -100256.560
+36. Current log-likelihood: -100256.525
+37. Current log-likelihood: -100256.507
+38. Current log-likelihood: -100256.490
+39. Current log-likelihood: -100256.474
+40. Current log-likelihood: -100256.460
+41. Current log-likelihood: -100256.446
+42. Current log-likelihood: -100256.435
+Optimal log-likelihood: -100256.422
+Rate parameters:  A-C: 0.51699  A-G: 1.85641  A-T: 0.32556  C-G: 0.32842  C-T: 2.86665  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.183  G: 0.196  T: 0.321
+Site proportion and rates:  (0.510,0.323) (0.120,1.108) (0.119,1.109) (0.119,1.109) (0.117,1.109) (0.014,21.269)
+Parameters optimization took 42 rounds (194.756 sec)
+BEST SCORE FOUND : -100256.422
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+34.849 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file .//MSA-PhyTree/SARS-CoV-2.MSA.splits.nex
+Total tree length: 1.806
+
+Total number of iterations: 180
+CPU time used for tree search: 8450.374 sec (2h:20m:50s)
+Wall-clock time used for tree search: 1491.570 sec (0h:24m:51s)
+Total CPU time used: 9867.478 sec (2h:44m:27s)
+Total wall-clock time used: 1733.426 sec (0h:28m:53s)
+
+Computing bootstrap consensus tree...
+Reading input file .//MSA-PhyTree/SARS-CoV-2.MSA.splits.nex...
+342 taxa and 11188 splits.
+Consensus tree written to .//MSA-PhyTree/SARS-CoV-2.MSA.contree
+Reading input trees file .//MSA-PhyTree/SARS-CoV-2.MSA.contree
+Log-likelihood of consensus tree: -100356.361
+
+Analysis results written to: 
+  IQ-TREE report:                .//MSA-PhyTree/SARS-CoV-2.MSA.iqtree
+  Maximum-likelihood tree:       .//MSA-PhyTree/SARS-CoV-2.MSA.treefile
+  Likelihood distances:          .//MSA-PhyTree/SARS-CoV-2.MSA.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          .//MSA-PhyTree/SARS-CoV-2.MSA.splits.nex
+  Consensus tree:                .//MSA-PhyTree/SARS-CoV-2.MSA.contree
+  Screen log file:               .//MSA-PhyTree/SARS-CoV-2.MSA.log
+
+Date and Time: Mon Jul  4 14:34:52 2022
