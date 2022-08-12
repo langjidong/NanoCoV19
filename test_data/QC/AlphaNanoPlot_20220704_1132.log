@@ -1,0 +1,22 @@
+2022-07-04 11:32:55,102 NanoPlot 1.38.0 started with arguments Namespace(threads=32, verbose=False, store=False, raw=False, huge=False, outdir='.//QC', prefix='Alpha', tsv_stats=False, info_in_report=False, maxlength=None, minlength=None, drop_outliers=False, downsample=None, loglength=False, percentqual=False, alength=False, minqual=None, runtime_until=None, readtype='1D', barcoded=False, no_supplementary=False, color='#4CB391', colormap='Greens', format='png', plots=['hex', 'dot'], legacy=None, listcolors=False, listcolormaps=False, no_N50=False, N50=False, title=None, font_scale=1, dpi=100, hide_stats=False, fastq=['.//clean_data/Alpha.fq'], fasta=None, fastq_rich=None, fastq_minimal=None, summary=None, bam=None, ubam=None, cram=None, pickle=None, feather=None, path='.//QC/Alpha')
+2022-07-04 11:32:55,102 Python version is: 3.9.5 (default, Jun  4 2021, 12:28:51)  [GCC 7.5.0]
+2022-07-04 11:32:55,139 Nanoget: Starting to collect statistics from plain fastq file.
+2022-07-04 11:32:55,768 Reduced DataFrame memory usage from 0.02288818359375Mb to 0.0152587890625Mb
+2022-07-04 11:32:55,780 Nanoget: Gathered all metrics of 1000 reads
+2022-07-04 11:32:55,796 Calculated statistics
+2022-07-04 11:32:55,796 Using sequenced read lengths for plotting.
+2022-07-04 11:32:55,802 NanoPlot:  Valid color #4CB391.
+2022-07-04 11:32:55,803 NanoPlot:  Valid colormap Greens.
+2022-07-04 11:32:55,804 NanoPlot:  Creating length plots for Read length.
+2022-07-04 11:32:55,805 NanoPlot:  Using 1000 reads maximum of 36665bp.
+2022-07-04 11:33:28,164 Saved .//QC/AlphaWeightedHistogramReadlength plot using the png format (defaulted to png if legacy was used)
+2022-07-04 11:35:37,055 Saved .//QC/AlphaWeightedLogTransformed_HistogramReadlength plot using the png format (defaulted to png if legacy was used)
+2022-07-04 11:37:28,772 Saved .//QC/AlphaNon_weightedHistogramReadlength plot using the png format (defaulted to png if legacy was used)
+2022-07-04 11:37:53,947 Saved .//QC/AlphaNon_weightedLogTransformed_HistogramReadlength plot using the png format (defaulted to png if legacy was used)
+2022-07-04 11:41:29,353 Saved .//QC/AlphaYield_By_Length plot using the png format (defaulted to png if legacy was used)
+2022-07-04 11:41:29,357 Created length plots
+2022-07-04 11:41:29,359 NanoPlot:  Creating Read lengths vs Average read quality plots using statistics from 1000 reads.
+2022-07-04 11:43:15,428 Saved .//QC/AlphaLengthvsQualityScatterPlot_dot plot using the png format (defaulted to png if legacy was used)
+2022-07-04 11:43:15,432 Created LengthvsQual plot
+2022-07-04 11:43:15,432 Writing html report.
+2022-07-04 11:43:15,475 Finished!

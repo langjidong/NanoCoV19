@@ -1,0 +1,7 @@
+MN908947.3: 29852/29903	Percentage:99.8294	Depth:2.6e+02
+
+Overall:
+Total:29903
+Covered:29852
+Percentage:1e+02
+

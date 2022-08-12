@@ -1,0 +1,4 @@
+BINARY_LINK	F0	+	F0	+	0	0
+BINARY_LINK	F0	+	F0	+	0	0
+ctg0	F0	-	0
+OUTPUT_CTG	ctg0 -> ctg1 nodes=32 len=30720

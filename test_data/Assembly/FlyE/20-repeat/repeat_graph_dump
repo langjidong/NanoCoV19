@@ -1,0 +1,6 @@
+Edge	4	1	1	0	0	0	206	-1
+	Sequence	+edge_3_0_+disjointig_1_9356_39096 29740 1 68837 9356 39096
+	Sequence	+edge_3_1_+disjointig_1_39096_68835 29739 1 68837 39096 68835
+Edge	5	0	0	0	0	0	206	-1
+	Sequence	-edge_3_0_+disjointig_1_9356_39096 29740 -1 68837 29740 59480
+	Sequence	-edge_3_1_+disjointig_1_39096_68835 29739 -1 68837 1 29740

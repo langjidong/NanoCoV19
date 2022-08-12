@@ -1,0 +1,516 @@
+[2022-07-04 11:54:22] root: INFO: Starting Flye 2.8.3-b1695
+[2022-07-04 11:54:22] root: DEBUG: Cmd: /mnt/gvol/langjidong/miniconda3/bin/flye --nano-raw .//clean_data/Alpha.fq --out-dir .//Assembly/FlyE --genome-size 30k --threads 32 --iterations 3
+[2022-07-04 11:54:22] root: DEBUG: Python version: 3.9.5 (default, Jun  4 2021, 12:28:51) 
+[GCC 7.5.0]
+[2022-07-04 11:54:22] root: INFO: >>>STAGE: configure
+[2022-07-04 11:54:22] root: INFO: Configuring run
+[2022-07-04 11:54:22] root: INFO: Total read length: 7759122
+[2022-07-04 11:54:22] root: INFO: Input genome size: 30000
+[2022-07-04 11:54:22] root: INFO: Estimated coverage: 258
+[2022-07-04 11:54:22] root: INFO: Reads N50/N90: 9496 / 5154
+[2022-07-04 11:54:22] root: INFO: Minimum overlap set to 5000
+[2022-07-04 11:54:22] root: INFO: >>>STAGE: assembly
+[2022-07-04 11:54:22] root: INFO: Assembling disjointigs
+[2022-07-04 11:54:22] root: DEBUG: -----Begin assembly log------
+[2022-07-04 11:54:22] root: DEBUG: Running: flye-modules assemble --reads .//clean_data/Alpha.fq --out-asm /mnt/nas/bioinfo/langjidong/PERL/software/Third-Generation/Pipeline/NanoCoV19/deletion/Assembly/FlyE/00-assembly/draft_assembly.fasta --config /mnt/gvol/langjidong/miniconda3/lib/python3.9/site-packages/flye/config/bin_cfg/asm_raw_reads.cfg --log /mnt/nas/bioinfo/langjidong/PERL/software/Third-Generation/Pipeline/NanoCoV19/deletion/Assembly/FlyE/flye.log --threads 32 --genome-size 30000 --min-ovlp 5000
+[2022-07-04 11:54:22] DEBUG: Build date: Mar 27 2021 19:08:40
+[2022-07-04 11:54:22] DEBUG: Total RAM: 2003 Gb
+[2022-07-04 11:54:22] DEBUG: Available RAM: 1775 Gb
+[2022-07-04 11:54:22] DEBUG: Total CPUs: 128
+[2022-07-04 11:54:22] DEBUG: Loading /mnt/gvol/langjidong/miniconda3/lib/python3.9/site-packages/flye/config/bin_cfg/asm_raw_reads.cfg
+[2022-07-04 11:54:22] DEBUG: Loading /mnt/gvol/langjidong/miniconda3/lib/python3.9/site-packages/flye/config/bin_cfg/asm_defaults.cfg
+[2022-07-04 11:54:22] DEBUG: 	big_genome_threshold=29000000
+[2022-07-04 11:54:22] DEBUG: 	meta_read_filter_kmer_freq=100
+[2022-07-04 11:54:22] DEBUG: 	max_coverage_drop_rate=5
+[2022-07-04 11:54:22] DEBUG: 	max_extensions_drop_rate=5
+[2022-07-04 11:54:22] DEBUG: 	chimera_window=100
+[2022-07-04 11:54:22] DEBUG: 	min_reads_in_disjointig=4
+[2022-07-04 11:54:22] DEBUG: 	max_inner_reads=10
+[2022-07-04 11:54:22] DEBUG: 	max_inner_fraction=0.25
+[2022-07-04 11:54:22] DEBUG: 	max_separation=500
+[2022-07-04 11:54:22] DEBUG: 	unique_edge_length=50000
+[2022-07-04 11:54:22] DEBUG: 	min_repeat_res_support=0.51
+[2022-07-04 11:54:22] DEBUG: 	out_paths_ratio=5
+[2022-07-04 11:54:22] DEBUG: 	graph_cov_drop_rate=5
+[2022-07-04 11:54:22] DEBUG: 	coverage_estimate_window=100
+[2022-07-04 11:54:22] DEBUG: 	max_bubble_length=50000
+[2022-07-04 11:54:22] DEBUG: 	loop_coverage_rate=1.5
+[2022-07-04 11:54:22] DEBUG: 	repeat_edge_cov_mult=1.75
+[2022-07-04 11:54:22] DEBUG: 	weak_detach_rate=5
+[2022-07-04 11:54:22] DEBUG: 	tip_coverage_rate=2
+[2022-07-04 11:54:22] DEBUG: 	tip_length_rate=2
+[2022-07-04 11:54:22] DEBUG: 	low_cutoff_warning=1
+[2022-07-04 11:54:22] DEBUG: 	hard_min_coverage_rate=10
+[2022-07-04 11:54:22] DEBUG: 	kmer_size=17
+[2022-07-04 11:54:22] DEBUG: 	use_minimizers=0
+[2022-07-04 11:54:22] DEBUG: 	reads_base_alignment=0
+[2022-07-04 11:54:22] DEBUG: 	assemble_kmer_sample=1
+[2022-07-04 11:54:22] DEBUG: 	repeat_graph_kmer_sample=1
+[2022-07-04 11:54:22] DEBUG: 	read_align_kmer_sample=1
+[2022-07-04 11:54:22] DEBUG: 	meta_read_top_kmer_rate=0.40
+[2022-07-04 11:54:22] DEBUG: 	maximum_jump=1500
+[2022-07-04 11:54:22] DEBUG: 	maximum_overhang=1500
+[2022-07-04 11:54:22] DEBUG: 	repeat_kmer_rate=100
+[2022-07-04 11:54:22] DEBUG: 	assemble_ovlp_divergence=0.10
+[2022-07-04 11:54:22] DEBUG: 	assemble_divergence_relative=1
+[2022-07-04 11:54:22] DEBUG: 	repeat_graph_ovlp_divergence=0.08
+[2022-07-04 11:54:22] DEBUG: 	read_align_ovlp_divergence=0.25
+[2022-07-04 11:54:22] DEBUG: 	hpc_scoring_on=0
+[2022-07-04 11:54:22] DEBUG: 	add_unassembled_reads=0
+[2022-07-04 11:54:22] DEBUG: 	extend_contigs_with_repeats=0
+[2022-07-04 11:54:22] DEBUG: 	min_read_cov_cutoff=3
+[2022-07-04 11:54:22] DEBUG: 	short_tip_length=20000
+[2022-07-04 11:54:22] DEBUG: 	long_tip_length=100000
+[2022-07-04 11:54:22] DEBUG: Running with k-mer size: 17
+[2022-07-04 11:54:22] DEBUG: Running with minimum overlap 5000
+[2022-07-04 11:54:22] DEBUG: Metagenome mode: N
+[2022-07-04 11:54:22] INFO: Reading sequences
+[2022-07-04 11:54:22] DEBUG: Building positional index
+[2022-07-04 11:54:22] DEBUG: Total sequence: 7037004 bp
+[2022-07-04 11:54:24] INFO: Counting k-mers:
+[2022-07-04 11:54:24] DEBUG: Updating k-mer histogram
+[2022-07-04 11:55:16] DEBUG: Hash size: 29752
+[2022-07-04 11:55:16] DEBUG: Total k-mers 4615370
+[2022-07-04 11:55:16] INFO: Filling index table (1/2)
+[2022-07-04 11:55:16] DEBUG: Mean k-mer frequency: 11.1749
+[2022-07-04 11:55:16] DEBUG: Repetitive k-mer frequency: 1117
+[2022-07-04 11:55:16] DEBUG: Filtered 0 repetitive k-mers (0)
+[2022-07-04 11:55:16] INFO: Filling index table (2/2)
+[2022-07-04 11:55:17] DEBUG: Sorting k-mer index
+[2022-07-04 11:55:17] DEBUG: Selected k-mers: 266213
+[2022-07-04 11:55:17] DEBUG: Index size: 2635974
+[2022-07-04 11:55:17] DEBUG: Mean k-mer index frequency: 9.90175
+[2022-07-04 11:55:17] DEBUG: Peak RAM usage: 8 Gb
+[2022-07-04 11:55:17] DEBUG: Estimating k-mer identity bias
+[2022-07-04 11:55:18] DEBUG: Initial divergence estimate : 0.129059
+[2022-07-04 11:55:18] DEBUG: Relative threshold: Y
+[2022-07-04 11:55:18] DEBUG: Max divergence threshold set to 0.229059
+[2022-07-04 11:55:18] INFO: Extending reads
+[2022-07-04 11:55:18] DEBUG: Estimating overlap coverage
+[2022-07-04 11:55:44] INFO: Overlap-based coverage: 199
+[2022-07-04 11:55:44] INFO: Median overlap divergence: 0.128511
+[2022-07-04 11:55:44] DEBUG: Sequence divergence distribution: 
+
+    |                         **                  |                                                      
+    |                         **                  |                                                      
+    |                        ***                  |                                                      
+    |                        ***                  |                                                      
+    |                        ***                  |                                                      
+    |                        ***                  |                                                      
+    |                        ***                  |                                                      
+    |                        ****                 |                                                      
+    |                        ****                 |                                                      
+    |                        ****                 |                                                      
+    |                       *****                 |                                                      
+    |                       *****                 |                                                      
+    |                       *****                 |                                                      
+    |                       *****                 |                                                      
+    |                       ******                |                                                      
+    |                      *******                |                                                      
+    |                      ********               |                                                      
+    |                     *********               |                                                      
+    |                    ***********              |                                                      
+    |              *  *******************         |                                                      
+    ----------------------------------------------------------------------------------------------------
+    0%        5%        10%       15%       20%       25%       30%       35%       40%       45%       
+
+    Q25 = 0.12, Q50 = 0.13, Q75 = 0.13
+
+[2022-07-04 11:55:44] DEBUG: Assembled disjointig 1
+	With 12 reads
+	Start read: +simulation_data_780
+	At position: 8
+	leftTip: 0 rightTip: 0
+	Suspicious: 0
+	Short ext: 0
+	Mean extensions: 142
+	Avg overlap len: 15195
+	Min overlap len: 9111
+	Inner reads: 0
+	Length: 68949
+[2022-07-04 11:55:44] DEBUG: Inner: 1298 covered: 1336 total: 1476
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 7 reads and 5 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 8 reads and 6 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 7 reads and 5 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 8 reads and 6 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 10 reads and 8 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 9 reads and 7 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 6 reads and 4 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 8 reads and 6 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 12 reads and 10 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 9 reads and 7 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 8 reads and 6 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 8 reads and 6 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 6 reads and 4 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 10 reads and 8 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 8 reads and 6 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 10 reads and 8 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 8 reads and 5 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 8 reads and 6 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 11 reads and 9 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 11 reads and 9 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 7 reads and 5 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 8 reads and 6 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 7 reads and 5 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 8 reads and 6 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 5 reads and 3 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 6 reads and 4 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 10 reads and 8 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 9 reads and 7 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 5 reads and 3 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 10 reads and 8 inner overlaps
+[2022-07-04 11:55:44] DEBUG: Discarded disjointig with 9 reads and 7 inner overlaps
+[2022-07-04 11:55:44] INFO: Assembled 1 disjointigs
+[2022-07-04 11:55:44] INFO: Generating sequence
+[2022-07-04 11:55:44] DEBUG: Writing FASTA
+[2022-07-04 11:55:44] DEBUG: Peak RAM usage: 8 Gb
+-----------End assembly log------------
+[2022-07-04 11:55:44] root: DEBUG: Disjointigs length: 68976, N50: 68976
+[2022-07-04 11:55:44] root: INFO: >>>STAGE: consensus
+[2022-07-04 11:55:44] root: INFO: Running Minimap2
+[2022-07-04 11:55:45] root: INFO: Computing consensus
+[2022-07-04 11:55:53] root: INFO: Alignment error rate: 0.218700
+[2022-07-04 11:55:53] root: INFO: >>>STAGE: repeat
+[2022-07-04 11:55:53] root: INFO: Building and resolving repeat graph
+[2022-07-04 11:55:53] root: DEBUG: -----Begin repeat analyser log------
+[2022-07-04 11:55:53] root: DEBUG: Running: flye-modules repeat --disjointigs /mnt/nas/bioinfo/langjidong/PERL/software/Third-Generation/Pipeline/NanoCoV19/deletion/Assembly/FlyE/10-consensus/consensus.fasta --reads .//clean_data/Alpha.fq --out-dir /mnt/nas/bioinfo/langjidong/PERL/software/Third-Generation/Pipeline/NanoCoV19/deletion/Assembly/FlyE/20-repeat --config /mnt/gvol/langjidong/miniconda3/lib/python3.9/site-packages/flye/config/bin_cfg/asm_raw_reads.cfg --log /mnt/nas/bioinfo/langjidong/PERL/software/Third-Generation/Pipeline/NanoCoV19/deletion/Assembly/FlyE/flye.log --threads 32 --min-ovlp 5000
+[2022-07-04 11:55:53] DEBUG: Build date: Mar 27 2021 19:09:05
+[2022-07-04 11:55:53] DEBUG: Total RAM: 2003 Gb
+[2022-07-04 11:55:53] DEBUG: Available RAM: 1775 Gb
+[2022-07-04 11:55:53] DEBUG: Total CPUs: 128
+[2022-07-04 11:55:53] DEBUG: Loading /mnt/gvol/langjidong/miniconda3/lib/python3.9/site-packages/flye/config/bin_cfg/asm_raw_reads.cfg
+[2022-07-04 11:55:53] DEBUG: Loading /mnt/gvol/langjidong/miniconda3/lib/python3.9/site-packages/flye/config/bin_cfg/asm_defaults.cfg
+[2022-07-04 11:55:53] DEBUG: 	big_genome_threshold=29000000
+[2022-07-04 11:55:53] DEBUG: 	meta_read_filter_kmer_freq=100
+[2022-07-04 11:55:53] DEBUG: 	max_coverage_drop_rate=5
+[2022-07-04 11:55:53] DEBUG: 	max_extensions_drop_rate=5
+[2022-07-04 11:55:53] DEBUG: 	chimera_window=100
+[2022-07-04 11:55:53] DEBUG: 	min_reads_in_disjointig=4
+[2022-07-04 11:55:53] DEBUG: 	max_inner_reads=10
+[2022-07-04 11:55:53] DEBUG: 	max_inner_fraction=0.25
+[2022-07-04 11:55:53] DEBUG: 	max_separation=500
+[2022-07-04 11:55:53] DEBUG: 	unique_edge_length=50000
+[2022-07-04 11:55:53] DEBUG: 	min_repeat_res_support=0.51
+[2022-07-04 11:55:53] DEBUG: 	out_paths_ratio=5
+[2022-07-04 11:55:53] DEBUG: 	graph_cov_drop_rate=5
+[2022-07-04 11:55:53] DEBUG: 	coverage_estimate_window=100
+[2022-07-04 11:55:53] DEBUG: 	max_bubble_length=50000
+[2022-07-04 11:55:53] DEBUG: 	loop_coverage_rate=1.5
+[2022-07-04 11:55:53] DEBUG: 	repeat_edge_cov_mult=1.75
+[2022-07-04 11:55:53] DEBUG: 	weak_detach_rate=5
+[2022-07-04 11:55:53] DEBUG: 	tip_coverage_rate=2
+[2022-07-04 11:55:53] DEBUG: 	tip_length_rate=2
+[2022-07-04 11:55:53] DEBUG: 	low_cutoff_warning=1
+[2022-07-04 11:55:53] DEBUG: 	hard_min_coverage_rate=10
+[2022-07-04 11:55:53] DEBUG: 	kmer_size=17
+[2022-07-04 11:55:53] DEBUG: 	use_minimizers=0
+[2022-07-04 11:55:53] DEBUG: 	reads_base_alignment=0
+[2022-07-04 11:55:53] DEBUG: 	assemble_kmer_sample=1
+[2022-07-04 11:55:53] DEBUG: 	repeat_graph_kmer_sample=1
+[2022-07-04 11:55:53] DEBUG: 	read_align_kmer_sample=1
+[2022-07-04 11:55:53] DEBUG: 	meta_read_top_kmer_rate=0.40
+[2022-07-04 11:55:53] DEBUG: 	maximum_jump=1500
+[2022-07-04 11:55:53] DEBUG: 	maximum_overhang=1500
+[2022-07-04 11:55:53] DEBUG: 	repeat_kmer_rate=100
+[2022-07-04 11:55:53] DEBUG: 	assemble_ovlp_divergence=0.10
+[2022-07-04 11:55:53] DEBUG: 	assemble_divergence_relative=1
+[2022-07-04 11:55:53] DEBUG: 	repeat_graph_ovlp_divergence=0.08
+[2022-07-04 11:55:53] DEBUG: 	read_align_ovlp_divergence=0.25
+[2022-07-04 11:55:53] DEBUG: 	hpc_scoring_on=0
+[2022-07-04 11:55:53] DEBUG: 	add_unassembled_reads=0
+[2022-07-04 11:55:53] DEBUG: 	extend_contigs_with_repeats=0
+[2022-07-04 11:55:53] DEBUG: 	min_read_cov_cutoff=3
+[2022-07-04 11:55:53] DEBUG: 	short_tip_length=20000
+[2022-07-04 11:55:53] DEBUG: 	long_tip_length=100000
+[2022-07-04 11:55:53] DEBUG: Running with k-mer size: 17
+[2022-07-04 11:55:53] DEBUG: Selected minimum overlap 5000
+[2022-07-04 11:55:53] DEBUG: Metagenome mode: N
+[2022-07-04 11:55:53] INFO: Parsing disjointigs
+[2022-07-04 11:55:53] DEBUG: Building positional index
+[2022-07-04 11:55:53] DEBUG: Total sequence: 68837 bp
+[2022-07-04 11:55:53] INFO: Building repeat graph
+[2022-07-04 11:55:53] DEBUG: Mean k-mer frequency: 2.2627
+[2022-07-04 11:55:53] DEBUG: Repetitive k-mer frequency: 226
+[2022-07-04 11:55:53] DEBUG: Filtered 0 repetitive k-mers (0)
+[2022-07-04 11:55:53] DEBUG: Sorting k-mer index
+[2022-07-04 11:55:53] DEBUG: Selected k-mers: 30414
+[2022-07-04 11:55:53] DEBUG: K-mer index size: 68820
+[2022-07-04 11:55:53] DEBUG: Mean k-mer frequency: 2.26277
+[2022-07-04 11:55:53] DEBUG: Minimizer rate: 1.00025
+[2022-07-04 11:55:53] DEBUG: Computing transitive closure for overlaps
+[2022-07-04 11:55:53] DEBUG: Found 12 overlaps
+[2022-07-04 11:55:53] DEBUG: Left 4 overlaps after filtering
+[2022-07-04 11:55:53] INFO: Median overlap divergence: 0.00166487
+[2022-07-04 11:55:53] DEBUG: Sequence divergence distribution: 
+
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    |*               |                                                                                   
+    ----------------------------------------------------------------------------------------------------
+    0%        5%        10%       15%       20%       25%       30%       35%       40%       45%       
+
+    Q25 = 0.0017, Q50 = 0.0017, Q75 = 0.0017
+
+[2022-07-04 11:55:53] DEBUG: Computing gluepoints
+[2022-07-04 11:55:53] DEBUG: Added 0 gluepoint projections
+[2022-07-04 11:55:53] DEBUG: Created 12 gluepoints
+[2022-07-04 11:55:53] DEBUG: Artificial loops removed: 0 left, 0 right, 0 both
+[2022-07-04 11:55:53] DEBUG: Initializing edges
+[2022-07-04 11:55:53] DEBUG: Edges length checksum: 1095027578
+[2022-07-04 11:55:53] DEBUG: Filtered 0 singleton segments
+[2022-07-04 11:55:53] DEBUG: Removed 0 simple and 0 double chimeric junctions
+[2022-07-04 11:55:53] DEBUG: Collapsed 1 edges
+[2022-07-04 11:55:53] DEBUG:  	3	+disjointig_1	9356	68835	59479	
+[2022-07-04 11:55:53] DEBUG: Total edges: 3
+[2022-07-04 11:55:53] INFO: Parsing reads
+[2022-07-04 11:55:53] DEBUG: Building positional index
+[2022-07-04 11:55:53] DEBUG: Total sequence: 7759122 bp
+[2022-07-04 11:55:53] DEBUG: Building positional index
+[2022-07-04 11:55:53] DEBUG: Total sequence: 59479 bp
+[2022-07-04 11:55:53] INFO: Aligning reads to the graph
+[2022-07-04 11:55:53] DEBUG: Mean k-mer frequency: 1.96305
+[2022-07-04 11:55:53] DEBUG: Repetitive k-mer frequency: 196
+[2022-07-04 11:55:53] DEBUG: Filtered 0 repetitive k-mers (0)
+[2022-07-04 11:55:53] DEBUG: Sorting k-mer index
+[2022-07-04 11:55:53] DEBUG: Selected k-mers: 30281
+[2022-07-04 11:55:53] DEBUG: K-mer index size: 59445
+[2022-07-04 11:55:53] DEBUG: Mean k-mer frequency: 1.96311
+[2022-07-04 11:55:53] DEBUG: Minimizer rate: 1.00057
+[2022-07-04 11:55:53] DEBUG: Total reads : 738
+[2022-07-04 11:55:53] DEBUG: Read with aligned parts : 671
+[2022-07-04 11:55:53] DEBUG: Aligned in one piece : 671
+[2022-07-04 11:55:53] INFO: Aligned read sequence: 6183050 / 7037004 (0.878648)
+[2022-07-04 11:55:53] INFO: Median overlap divergence: 0.0645288
+[2022-07-04 11:55:53] DEBUG: Sequence divergence distribution: 
+
+    |            *                                     |                                                 
+    |            *                                     |                                                 
+    |            *                                     |                                                 
+    |            **                                    |                                                 
+    |            **                                    |                                                 
+    |            **                                    |                                                 
+    |            **                                    |                                                 
+    |            **                                    |                                                 
+    |            **                                    |                                                 
+    |            **                                    |                                                 
+    |            **                                    |                                                 
+    |           ***                                    |                                                 
+    |           ***                                    |                                                 
+    |           ****                                   |                                                 
+    |           ****                                   |                                                 
+    |           ****                                   |                                                 
+    |           ****                                   |                                                 
+    |           ****                                   |                                                 
+    |          ******                                  |                                                 
+    |         ******** *                               |                                                 
+    ----------------------------------------------------------------------------------------------------
+    0%        5%        10%       15%       20%       25%       30%       35%       40%       45%       
+
+    Q25 = 0.061, Q50 = 0.065, Q75 = 0.068
+
+[2022-07-04 11:55:53] INFO: Mean edge coverage: 205
+[2022-07-04 11:55:53] DEBUG: 3	len:29739	cov:206	mult:1.00488
+[2022-07-04 11:55:53] DEBUG: -3	len:29739	cov:206	mult:1.00488
+[2022-07-04 11:55:53] DEBUG: Unique coverage threshold 360
+[2022-07-04 11:55:53] INFO: Simplifying the graph
+[2022-07-04 11:55:53] DEBUG: Read coverage cutoff: 41
+[2022-07-04 11:55:53] DEBUG: [SIMPL] Removed 0 paths with low coverage
+[2022-07-04 11:55:53] DEBUG: Finding repeats
+[2022-07-04 11:55:53] DEBUG: Read coverage cutoff: 41
+[2022-07-04 11:55:53] DEBUG: Repeat detection iteration 1
+[2022-07-04 11:55:53] DEBUG: Writing Dot
+[2022-07-04 11:55:53] DEBUG: Writing FASTA
+[2022-07-04 11:55:53] DEBUG: [SIMPL] == Iteration 1 ==
+[2022-07-04 11:55:53] DEBUG: Splitting nodes
+[2022-07-04 11:55:53] DEBUG: [SIMPL] Split 0 nodes
+[2022-07-04 11:55:53] DEBUG: [SIMPL] Clipped 0 short and 0 long tips
+[2022-07-04 11:55:53] DEBUG: [SIMPL] Masked 0 heterozygous loops
+[2022-07-04 11:55:53] DEBUG: [SIMPL] Masked 0 simple bubbles
+[2022-07-04 11:55:53] DEBUG: Finding repeats
+[2022-07-04 11:55:53] DEBUG: Read coverage cutoff: 41
+[2022-07-04 11:55:53] DEBUG: Repeat detection iteration 1
+[2022-07-04 11:55:53] DEBUG: Total unique edges: 1
+[2022-07-04 11:55:53] DEBUG: [SIMPL] Resolved repeats: 0
+[2022-07-04 11:55:53] DEBUG: RR links: 0
+[2022-07-04 11:55:53] DEBUG: Unresolved: 0
+[2022-07-04 11:55:53] DEBUG: Removed 0 simple and 0 double chimeric junctions
+[2022-07-04 11:55:53] DEBUG: [SIMPL] Collapsed 0 haplotypes
+[2022-07-04 11:55:53] DEBUG: [SIMPL] Resolved 0 simple repeats
+[2022-07-04 11:55:53] DEBUG: Read coverage cutoff: 41
+[2022-07-04 11:55:53] DEBUG: [SIMPL] Removed 0 paths with low coverage
+[2022-07-04 11:55:53] DEBUG: Finding repeats
+[2022-07-04 11:55:53] DEBUG: Read coverage cutoff: 41
+[2022-07-04 11:55:53] DEBUG: Repeat detection iteration 1
+[2022-07-04 11:55:53] DEBUG: Writing Dot
+[2022-07-04 11:55:53] DEBUG: Writing FASTA
+[2022-07-04 11:55:53] DEBUG: Peak RAM usage: 0 Gb
+-----------End assembly log------------
+[2022-07-04 11:55:54] root: INFO: >>>STAGE: contigger
+[2022-07-04 11:55:54] root: INFO: Generating contigs
+[2022-07-04 11:55:54] root: DEBUG: -----Begin contigger analyser log------
+[2022-07-04 11:55:54] root: DEBUG: Running: flye-modules contigger --graph-edges /mnt/nas/bioinfo/langjidong/PERL/software/Third-Generation/Pipeline/NanoCoV19/deletion/Assembly/FlyE/20-repeat/repeat_graph_edges.fasta --reads .//clean_data/Alpha.fq --out-dir /mnt/nas/bioinfo/langjidong/PERL/software/Third-Generation/Pipeline/NanoCoV19/deletion/Assembly/FlyE/30-contigger --config /mnt/gvol/langjidong/miniconda3/lib/python3.9/site-packages/flye/config/bin_cfg/asm_raw_reads.cfg --repeat-graph /mnt/nas/bioinfo/langjidong/PERL/software/Third-Generation/Pipeline/NanoCoV19/deletion/Assembly/FlyE/20-repeat/repeat_graph_dump --graph-aln /mnt/nas/bioinfo/langjidong/PERL/software/Third-Generation/Pipeline/NanoCoV19/deletion/Assembly/FlyE/20-repeat/read_alignment_dump --log /mnt/nas/bioinfo/langjidong/PERL/software/Third-Generation/Pipeline/NanoCoV19/deletion/Assembly/FlyE/flye.log --threads 32 --min-ovlp 5000
+[2022-07-04 11:55:54] DEBUG: Build date: Mar 27 2021 19:09:32
+[2022-07-04 11:55:54] DEBUG: Total RAM: 2003 Gb
+[2022-07-04 11:55:54] DEBUG: Available RAM: 1775 Gb
+[2022-07-04 11:55:54] DEBUG: Total CPUs: 128
+[2022-07-04 11:55:54] DEBUG: Loading /mnt/gvol/langjidong/miniconda3/lib/python3.9/site-packages/flye/config/bin_cfg/asm_raw_reads.cfg
+[2022-07-04 11:55:54] DEBUG: Loading /mnt/gvol/langjidong/miniconda3/lib/python3.9/site-packages/flye/config/bin_cfg/asm_defaults.cfg
+[2022-07-04 11:55:54] DEBUG: 	big_genome_threshold=29000000
+[2022-07-04 11:55:54] DEBUG: 	meta_read_filter_kmer_freq=100
+[2022-07-04 11:55:54] DEBUG: 	max_coverage_drop_rate=5
+[2022-07-04 11:55:54] DEBUG: 	max_extensions_drop_rate=5
+[2022-07-04 11:55:54] DEBUG: 	chimera_window=100
+[2022-07-04 11:55:54] DEBUG: 	min_reads_in_disjointig=4
+[2022-07-04 11:55:54] DEBUG: 	max_inner_reads=10
+[2022-07-04 11:55:54] DEBUG: 	max_inner_fraction=0.25
+[2022-07-04 11:55:54] DEBUG: 	max_separation=500
+[2022-07-04 11:55:54] DEBUG: 	unique_edge_length=50000
+[2022-07-04 11:55:54] DEBUG: 	min_repeat_res_support=0.51
+[2022-07-04 11:55:54] DEBUG: 	out_paths_ratio=5
+[2022-07-04 11:55:54] DEBUG: 	graph_cov_drop_rate=5
+[2022-07-04 11:55:54] DEBUG: 	coverage_estimate_window=100
+[2022-07-04 11:55:54] DEBUG: 	max_bubble_length=50000
+[2022-07-04 11:55:54] DEBUG: 	loop_coverage_rate=1.5
+[2022-07-04 11:55:54] DEBUG: 	repeat_edge_cov_mult=1.75
+[2022-07-04 11:55:54] DEBUG: 	weak_detach_rate=5
+[2022-07-04 11:55:54] DEBUG: 	tip_coverage_rate=2
+[2022-07-04 11:55:54] DEBUG: 	tip_length_rate=2
+[2022-07-04 11:55:54] DEBUG: 	low_cutoff_warning=1
+[2022-07-04 11:55:54] DEBUG: 	hard_min_coverage_rate=10
+[2022-07-04 11:55:54] DEBUG: 	kmer_size=17
+[2022-07-04 11:55:54] DEBUG: 	use_minimizers=0
+[2022-07-04 11:55:54] DEBUG: 	reads_base_alignment=0
+[2022-07-04 11:55:54] DEBUG: 	assemble_kmer_sample=1
+[2022-07-04 11:55:54] DEBUG: 	repeat_graph_kmer_sample=1
+[2022-07-04 11:55:54] DEBUG: 	read_align_kmer_sample=1
+[2022-07-04 11:55:54] DEBUG: 	meta_read_top_kmer_rate=0.40
+[2022-07-04 11:55:54] DEBUG: 	maximum_jump=1500
+[2022-07-04 11:55:54] DEBUG: 	maximum_overhang=1500
+[2022-07-04 11:55:54] DEBUG: 	repeat_kmer_rate=100
+[2022-07-04 11:55:54] DEBUG: 	assemble_ovlp_divergence=0.10
+[2022-07-04 11:55:54] DEBUG: 	assemble_divergence_relative=1
+[2022-07-04 11:55:54] DEBUG: 	repeat_graph_ovlp_divergence=0.08
+[2022-07-04 11:55:54] DEBUG: 	read_align_ovlp_divergence=0.25
+[2022-07-04 11:55:54] DEBUG: 	hpc_scoring_on=0
+[2022-07-04 11:55:54] DEBUG: 	add_unassembled_reads=0
+[2022-07-04 11:55:54] DEBUG: 	extend_contigs_with_repeats=0
+[2022-07-04 11:55:54] DEBUG: 	min_read_cov_cutoff=3
+[2022-07-04 11:55:54] DEBUG: 	short_tip_length=20000
+[2022-07-04 11:55:54] DEBUG: 	long_tip_length=100000
+[2022-07-04 11:55:54] DEBUG: Running with k-mer size: 17
+[2022-07-04 11:55:54] DEBUG: Selected minimum overlap 5000
+[2022-07-04 11:55:54] INFO: Reading sequences
+[2022-07-04 11:55:54] DEBUG: Building positional index
+[2022-07-04 11:55:54] DEBUG: Total sequence: 7759122 bp
+[2022-07-04 11:55:54] DEBUG: Flipped 0
+[2022-07-04 11:55:54] DEBUG: UPath 1: 3
+[2022-07-04 11:55:54] DEBUG: Final graph contiain 1 egdes
+[2022-07-04 11:55:54] DEBUG: Extending contigs into repeats
+[2022-07-04 11:55:54] DEBUG: Covered 0 repetitive contigs
+[2022-07-04 11:55:54] INFO: Generated 1 contigs
+[2022-07-04 11:55:54] DEBUG: Writing FASTA
+[2022-07-04 11:55:54] DEBUG: Generating scaffold connections
+[2022-07-04 11:55:54] INFO: Added 0 scaffold connections
+[2022-07-04 11:55:54] DEBUG: Writing Dot
+[2022-07-04 11:55:54] DEBUG: Writing FASTA
+[2022-07-04 11:55:54] DEBUG: Writing Gfa
+[2022-07-04 11:55:54] DEBUG: Peak RAM usage: 0 Gb
+-----------End assembly log------------
+[2022-07-04 11:55:54] root: INFO: >>>STAGE: polishing
+[2022-07-04 11:55:54] root: INFO: Polishing genome (1/3)
+[2022-07-04 11:55:54] root: INFO: Running minimap2
+[2022-07-04 11:55:54] root: INFO: Separating alignment into bubbles
+[2022-07-04 11:56:01] root: DEBUG: Generated 1970 bubbles
+[2022-07-04 11:56:01] root: DEBUG: Split 0 long bubbles
+[2022-07-04 11:56:01] root: DEBUG: Skipped 0 empty bubbles
+[2022-07-04 11:56:01] root: DEBUG: Skipped 0 bubbles with long branches
+[2022-07-04 11:56:01] root: INFO: Alignment error rate: 0.133796
+[2022-07-04 11:56:01] root: INFO: Correcting bubbles
+[2022-07-04 11:56:01] root: INFO: Polishing genome (2/3)
+[2022-07-04 11:56:01] root: INFO: Running minimap2
+[2022-07-04 11:56:02] root: INFO: Separating alignment into bubbles
+[2022-07-04 11:56:08] root: DEBUG: Generated 1973 bubbles
+[2022-07-04 11:56:08] root: DEBUG: Split 0 long bubbles
+[2022-07-04 11:56:08] root: DEBUG: Skipped 0 empty bubbles
+[2022-07-04 11:56:08] root: DEBUG: Skipped 0 bubbles with long branches
+[2022-07-04 11:56:08] root: INFO: Alignment error rate: 0.133199
+[2022-07-04 11:56:08] root: INFO: Correcting bubbles
+[2022-07-04 11:56:08] root: INFO: Polishing genome (3/3)
+[2022-07-04 11:56:08] root: INFO: Running minimap2
+[2022-07-04 11:56:09] root: INFO: Separating alignment into bubbles
+[2022-07-04 11:56:15] root: DEBUG: Generated 1973 bubbles
+[2022-07-04 11:56:15] root: DEBUG: Split 0 long bubbles
+[2022-07-04 11:56:15] root: DEBUG: Skipped 0 empty bubbles
+[2022-07-04 11:56:15] root: DEBUG: Skipped 0 bubbles with long branches
+[2022-07-04 11:56:15] root: INFO: Alignment error rate: 0.133199
+[2022-07-04 11:56:15] root: INFO: Correcting bubbles
+[2022-07-04 11:56:16] root: DEBUG: Mean contig coverage: 232, selected threshold: 46
+[2022-07-04 11:56:16] root: DEBUG: Filtered 0 contigs of total length 0
+[2022-07-04 11:56:16] root: DEBUG: Generating polished GFA
+[2022-07-04 11:56:16] root: DEBUG: 0 sequences remained unpolished
+[2022-07-04 11:56:16] root: INFO: >>>STAGE: finalize
+[2022-07-04 11:56:16] root: DEBUG: ---Output dir contents:----
+[2022-07-04 11:56:16] root: DEBUG: FlyE/
+[2022-07-04 11:56:16] root: DEBUG:     29.0 K      assembly.fasta
+[2022-07-04 11:56:16] root: DEBUG:     31.0 K      flye.log
+[2022-07-04 11:56:16] root: DEBUG:     29.0 K      assembly_graph.gfa
+[2022-07-04 11:56:16] root: DEBUG:     191.0 B     assembly_graph.gv
+[2022-07-04 11:56:16] root: DEBUG:     92.0 B      params.json
+[2022-07-04 11:56:16] root: DEBUG:     40-polishing/
+[2022-07-04 11:56:16] root: DEBUG:         45.0 B      contigs_stats.txt
+[2022-07-04 11:56:16] root: DEBUG:         29.0 K      polished_edges.gfa
+[2022-07-04 11:56:16] root: DEBUG:         29.0 K      polished_2.fasta
+[2022-07-04 11:56:16] root: DEBUG:         29.0 K      polished_1.fasta
+[2022-07-04 11:56:16] root: DEBUG:         24.0 B      filtered_contigs.fasta.fai
+[2022-07-04 11:56:16] root: DEBUG:         32.0 B      chunks_1.fasta.fai
+[2022-07-04 11:56:16] root: DEBUG:         32.0 B      chunks_2.fasta.fai
+[2022-07-04 11:56:16] root: DEBUG:         32.0 B      chunks_3.fasta.fai
+[2022-07-04 11:56:16] root: DEBUG:         29.0 K      filtered_contigs.fasta
+[2022-07-04 11:56:16] root: DEBUG:         45.0 B      filtered_stats.txt
+[2022-07-04 11:56:16] root: DEBUG:     00-assembly/
+[2022-07-04 11:56:16] root: DEBUG:         68.0 K      draft_assembly.fasta
+[2022-07-04 11:56:16] root: DEBUG:     20-repeat/
+[2022-07-04 11:56:16] root: DEBUG:         58.0 K      repeat_graph_edges.fasta
+[2022-07-04 11:56:16] root: DEBUG:         191.0 B     graph_before_rr.gv
+[2022-07-04 11:56:16] root: DEBUG:         29.0 K      graph_before_rr.fasta
+[2022-07-04 11:56:16] root: DEBUG:         200.0 K     read_alignment_dump
+[2022-07-04 11:56:16] root: DEBUG:         331.0 B     repeat_graph_dump
+[2022-07-04 11:56:16] root: DEBUG:         191.0 B     graph_after_rr.gv
+[2022-07-04 11:56:16] root: DEBUG:     30-contigger/
+[2022-07-04 11:56:16] root: DEBUG:         191.0 B     graph_final.gv
+[2022-07-04 11:56:16] root: DEBUG:         29.0 K      graph_final.gfa
+[2022-07-04 11:56:16] root: DEBUG:         29.0 K      contigs.fasta
+[2022-07-04 11:56:16] root: DEBUG:         0.0 B       scaffolds_links.txt
+[2022-07-04 11:56:16] root: DEBUG:         29.0 K      graph_final.fasta
+[2022-07-04 11:56:16] root: DEBUG:         111.0 B     contigs_stats.txt
+[2022-07-04 11:56:16] root: DEBUG:     10-consensus/
+[2022-07-04 11:56:16] root: DEBUG:         68.0 K      consensus.fasta
+[2022-07-04 11:56:16] root: DEBUG:         36.0 B      chunks.fasta.fai
+[2022-07-04 11:56:16] root: DEBUG: --------------------------
+[2022-07-04 11:56:16] root: INFO: Assembly statistics:
+
+	Total length:	29755
+	Fragments:	1
+	Fragments N50:	29755
+	Largest frg:	29755
+	Scaffolds:	0
+	Mean coverage:	232
+
+[2022-07-04 11:56:16] root: INFO: Final assembly: /mnt/nas/bioinfo/langjidong/PERL/software/Third-Generation/Pipeline/NanoCoV19/deletion/Assembly/FlyE/assembly.fasta
