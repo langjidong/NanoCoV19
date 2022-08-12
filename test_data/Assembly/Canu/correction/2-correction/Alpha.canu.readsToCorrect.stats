@@ -1,0 +1,40 @@
+                          original      original
+                         raw reads     raw reads
+category                w/overlaps  w/o/overlaps
+-------------------- ------------- -------------
+Number of Reads                639           320
+Number of Bases            5438162        392187
+Coverage                   181.272        13.073
+Median                        8158             0
+Mean                          8510          1225
+N50                           9469         11850
+Minimum                       1037             0
+Maximum                      27523         36665
+
+                                     --------corrected---------  ----------rescued----------
+                          evidence                     expected                     expected
+category                     reads            raw     corrected            raw     corrected
+-------------------- -------------  ------------- -------------  ------------- -------------
+Number of Reads                705             81            81              0             0
+Number of Bases            5730276        1224361       1204007              0             0
+Coverage                   191.009         40.812        40.134          0.000         0.000
+Median                        7854          14235         14199              0             0
+Mean                          8128          15115         14864              0             0
+N50                           9469          14714         14398              0             0
+Minimum                       1037          12323         12310              0             0
+Maximum                      28906          25700         25150              0             0
+
+                     --------uncorrected--------
+                                        expected
+category                       raw     corrected
+-------------------- ------------- -------------
+Number of Reads                878           878
+Number of Bases            4605988       3276803
+Coverage                   153.533       109.227
+Median                        5778           929
+Mean                          5246          3732
+N50                           8578          8965
+Minimum                          0             0
+Maximum                      36665         27498
+
+Maximum Memory           853393040

@@ -1,0 +1,60 @@
+
+Found perl:
+   /mnt/gvol/langjidong/miniconda3/bin/perl
+   This is perl 5, version 26, subversion 2 (v5.26.2) built for x86_64-linux-thread-multi
+
+Found java:
+   /mnt/gvol/langjidong/miniconda3/bin/java
+   openjdk version "1.8.0_282"
+
+Found canu:
+   /mnt/gvol/langjidong/miniconda3/bin/canu
+   canu branch HEAD +0 changes (r10117 5638f7d9a5379373310ab62c28aa0cdbd864722d)
+
+Running job 1 based on command line options.
+
+Running block 000001 in query 000001
+
+Running with these settings:
+--filter-threshold = 1.0E-7
+--help = false
+--max-shift = 0.2
+--min-olap-length = 500
+--min-store-length = 0
+--no-rc = false
+--no-self = false
+--no-tf = false
+--num-hashes = 256
+--num-min-matches = 3
+--num-threads = 16
+--ordered-kmer-size = 14
+--ordered-sketch-size = 1000
+--repeat-idf-scale = 10.0
+--repeat-weight = 0.9
+--settings = 0
+--store-full-id = true
+--supress-noise = 0
+--threshold = 0.8
+--version = false
+-f = 
+-h = false
+-k = 16
+-p = 
+-q = queries/000001
+-s = ./blocks/000001.dat
+
+Processing files for storage in reverse index...
+Stored 1486 sequences in the index.
+Processed 1486 unique sequences (fwd and rev).
+Time (s) to read and hash from file: 0.268747459
+Time (s) to score and output to self: 1.630987761
+Total scoring time (s): 1.63185671
+Total time (s): 1.9007534990000001
+MinHash search time (s): 1.105897904
+Total matches found: 98552
+Average number of matches per lookup: 132.64064602960968
+Average number of table elements processed per lookup: 2664.625841184388
+Average number of table elements processed per match: 20.089059582758342
+Average % of hashed sequences hit per lookup: 21.65840351128251
+Average % of hashed sequences hit that are matches: 41.212729477689955
+Average % of hashed sequences fully compared that are matches: 99.86016820346539

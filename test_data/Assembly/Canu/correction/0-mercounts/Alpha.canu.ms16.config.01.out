@@ -1,0 +1,54 @@
+
+Found 1 command tree.
+
+Counting 5864 (estimated) thousand canonical 16-mers from 1 input file:
+    canu-seqStore: ../../Alpha.canu.seqStore
+
+
+SIMPLE MODE
+-----------
+
+  16-mers
+    -> 4294967296 entries for counts up to 65535.
+    -> 64 Gbits memory used
+
+  6005169 input bases
+    -> expected max count of 24020, needing 0 extra bits.
+    -> no memory used
+
+  8192 MB memory needed
+
+
+COMPLEX MODE
+------------
+
+prefix     # of   struct   kmers/    segs/      min     data    total
+  bits   prefix   memory   prefix   prefix   memory   memory   memory
+------  -------  -------  -------  -------  -------  -------  -------
+     1     2  P  9312  B  2932 kM   178  S   128 kB    22 MB    22 MB
+     2     4  P    15 kB  1466 kM    86  S   256 kB    21 MB    21 MB
+     3     8  P    27 kB   733 kM    42  S   512 kB    21 MB    21 MB
+     4    16  P    53 kB   366 kM    21  S  1024 kB    21 MB    21 MB
+     5    32  P   103 kB   183 kM    10  S  2048 kB    20 MB    20 MB
+     6    64  P   204 kB    91 kM     5  S  4096 kB    20 MB    20 MB
+     7   128  P   407 kB    45 kM     3  S  8192 kB    24 MB    24 MB
+     8   256  P   812 kB    22 kM     2  S    16 MB    32 MB    32 MB
+     9   512  P  1620 kB    11 kM     1  S    32 MB    32 MB    33 MB
+    10  1024  P  3240 kB  5865  M     1  S    64 MB    64 MB    67 MB  Best Value!
+    11  2048  P  6480 kB  2933  M     1  S   128 MB   128 MB   134 MB
+    12  4096  P    12 MB  1467  M     1  S   256 MB   256 MB   268 MB
+    13  8192  P    25 MB   734  M     1  S   512 MB   512 MB   537 MB
+    14    16 kP    50 MB   367  M     1  S  1024 MB  1024 MB  1074 MB
+    15    32 kP   101 MB   184  M     1  S  2048 MB  2048 MB  2149 MB
+
+
+FINAL CONFIGURATION
+-------------------
+
+Configured complex mode for 0.066 GB memory per batch, and up to 1 batch.
+
+Start counting with THREADED method.
+
+Cleaning up.
+
+Bye.

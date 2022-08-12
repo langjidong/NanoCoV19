@@ -1,0 +1,60 @@
+
+Found perl:
+   /mnt/gvol/langjidong/miniconda3/bin/perl
+   This is perl 5, version 26, subversion 2 (v5.26.2) built for x86_64-linux-thread-multi
+
+Found java:
+   /mnt/gvol/langjidong/miniconda3/bin/java
+   openjdk version "1.8.0_282"
+
+Found canu:
+   /mnt/gvol/langjidong/miniconda3/bin/canu
+   canu branch HEAD +0 changes (r10117 5638f7d9a5379373310ab62c28aa0cdbd864722d)
+
+Running job 1 based on command line options.
+/mnt/users/bioinfo/langjidong/PERL/software/Third-Generation/Pipeline/NanoCoV19/deletion/Assembly/Canu/correction/1-overlapper
+Opened seqStore '../../Alpha.canu.seqStore' for 'raw' reads.
+Dumping raw reads from 1 to 959 (inclusive).
+
+Starting mhap precompute.
+
+Running with these settings:
+--filter-threshold = 1.0E-7
+--help = false
+--max-shift = 0.2
+--min-olap-length = 500
+--min-store-length = 0
+--no-rc = false
+--no-self = false
+--no-tf = false
+--num-hashes = 256
+--num-min-matches = 3
+--num-threads = 16
+--ordered-kmer-size = 14
+--ordered-sketch-size = 1000
+--repeat-idf-scale = 10.0
+--repeat-weight = 0.9
+--settings = 0
+--store-full-id = true
+--supress-noise = 0
+--threshold = 0.8
+--version = false
+-f = ../../0-mercounts/Alpha.canu.ms16.ignore.gz
+-h = false
+-k = 16
+-p = ./000001.input.fasta
+-q = .
+-s = 
+
+Reading in filter file ../../0-mercounts/Alpha.canu.ms16.ignore.gz.
+Read in values for repeat 0 and 0
+Warning, k-mer filter file has zero elements.
+Initializing
+Initialized
+Time (s) to read filter file: 0.070777189
+Read in k-mer filter for sizes: []
+Processing FASTA files for binary compression...
+Processed 1486 sequences (fwd and rev).
+Read, hashed, and stored file ./000001.input.fasta to ./000001.input.dat.
+Time (s): 5.1562948010000005
+Total time (s): 5.156498698
