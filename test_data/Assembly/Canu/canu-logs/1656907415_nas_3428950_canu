@@ -1,0 +1,12 @@
+
+###
+###  Reading options from '/mnt/gvol/langjidong/miniconda3/bin/canu.defaults'
+###
+
+# Add site specific options (for setting up Grid or limiting memory/threads) here.
+
+###
+###  Reading options from the command line.
+###
+
+genomeSize=30k

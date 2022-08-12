@@ -1,0 +1,495 @@
+[CORRECTION/READS]
+--
+-- In sequence store './Alpha.canu.seqStore':
+--   Found 743 reads.
+--   Found 6005169 bases (200.17 times coverage).
+--    
+--    G=6005169                          sum of  ||               length     num
+--    NG         length     index       lengths  ||                range    seqs
+--    ----- ------------ --------- ------------  ||  ------------------- -------
+--    00010        15470        30       613822  ||       1037-1749           23|------------------------
+--    00020        13319        71      1202130  ||       1750-2462           31|--------------------------------
+--    00030        11424       120      1806555  ||       2463-3175           33|----------------------------------
+--    00040        10386       176      2412025  ||       3176-3888           27|----------------------------
+--    00050         9496       236      3009027  ||       3889-4601           28|-----------------------------
+--    00060         8578       302      3605396  ||       4602-5314           44|---------------------------------------------
+--    00070         7725       376      4209148  ||       5315-6027           49|--------------------------------------------------
+--    00080         6657       460      4809720  ||       6028-6740           54|-------------------------------------------------------
+--    00090         5198       559      5404917  ||       6741-7453           61|--------------------------------------------------------------
+--    00100         1037       742      6005169  ||       7454-8166           51|----------------------------------------------------
+--    001.000x                 743      6005169  ||       8167-8879           62|---------------------------------------------------------------
+--                                               ||       8880-9592           50|---------------------------------------------------
+--                                               ||       9593-10305          50|---------------------------------------------------
+--                                               ||      10306-11018          43|--------------------------------------------
+--                                               ||      11019-11731          24|-------------------------
+--                                               ||      11732-12444          21|----------------------
+--                                               ||      12445-13157          19|--------------------
+--                                               ||      13158-13870          11|------------
+--                                               ||      13871-14583          14|---------------
+--                                               ||      14584-15296          13|--------------
+--                                               ||      15297-16009           9|----------
+--                                               ||      16010-16722           9|----------
+--                                               ||      16723-17435           2|---
+--                                               ||      17436-18148           1|--
+--                                               ||      18149-18861           1|--
+--                                               ||      18862-19574           3|----
+--                                               ||      19575-20287           0|
+--                                               ||      20288-21000           0|
+--                                               ||      21001-21713           0|
+--                                               ||      21714-22426           1|--
+--                                               ||      22427-23139           2|---
+--                                               ||      23140-23852           1|--
+--                                               ||      23853-24565           0|
+--                                               ||      24566-25278           2|---
+--                                               ||      25279-25991           1|--
+--                                               ||      25992-26704           0|
+--                                               ||      26705-27417           0|
+--                                               ||      27418-28130           1|--
+--                                               ||      28131-28843           0|
+--                                               ||      28844-29556           1|--
+--                                               ||      29557-30269           0|
+--                                               ||      30270-30982           0|
+--                                               ||      30983-31695           0|
+--                                               ||      31696-32408           0|
+--                                               ||      32409-33121           0|
+--                                               ||      33122-33834           0|
+--                                               ||      33835-34547           0|
+--                                               ||      34548-35260           0|
+--                                               ||      35261-35973           0|
+--                                               ||      35974-36686           1|--
+--
+
+[CORRECTION/MERS]
+--
+--  16-mers                                                                                           Fraction
+--    Occurrences   NumMers                                                                         Unique Total
+--       1-     1         0                                                                        0.0000 0.0000
+--       2-     2    155457 ********************************************************************** 0.6746 0.1316
+--       3-     4     41891 ******************                                                     0.8189 0.1738
+--       5-     7      3286 *                                                                      0.8669 0.1936
+--       8-    11        64                                                                        0.8708 0.1960
+--      12-    16         0                                                                        0.0000 0.0000
+--      17-    22         0                                                                        0.0000 0.0000
+--      23-    29         0                                                                        0.0000 0.0000
+--      30-    37         0                                                                        0.0000 0.0000
+--      38-    46       186                                                                        0.8710 0.1962
+--      47-    56      4562 **                                                                     0.8721 0.2015
+--      57-    67     15867 *******                                                                0.8962 0.3285
+--      68-    79      8633 ***                                                                    0.9663 0.7596
+--      80-    92       496                                                                        0.9984 0.9872
+--      93-   106         1                                                                        1.0000 0.9997
+--     107-   121         0                                                                        0.0000 0.0000
+--     122-   137         0                                                                        0.0000 0.0000
+--     138-   154         5                                                                        1.0000 0.9998
+--
+--           0 (max occurrences)
+--     2362724 (total mers, non-unique)
+--      230448 (distinct mers, non-unique)
+--           0 (unique mers)
+
+[CORRECTION/LAYOUT]
+--                             original      original
+--                            raw reads     raw reads
+--   category                w/overlaps  w/o/overlaps
+--   -------------------- ------------- -------------
+--   Number of Reads                639           320
+--   Number of Bases            5438162        392187
+--   Coverage                   181.272        13.073
+--   Median                        8158             0
+--   Mean                          8510          1225
+--   N50                           9469         11850
+--   Minimum                       1037             0
+--   Maximum                      27523         36665
+--   
+--                                        --------corrected---------  ----------rescued----------
+--                             evidence                     expected                     expected
+--   category                     reads            raw     corrected            raw     corrected
+--   -------------------- -------------  ------------- -------------  ------------- -------------
+--   Number of Reads                705             81            81              0             0
+--   Number of Bases            5730276        1224361       1204007              0             0
+--   Coverage                   191.009         40.812        40.134          0.000         0.000
+--   Median                        7854          14235         14199              0             0
+--   Mean                          8128          15115         14864              0             0
+--   N50                           9469          14714         14398              0             0
+--   Minimum                       1037          12323         12310              0             0
+--   Maximum                      28906          25700         25150              0             0
+--   
+--                        --------uncorrected--------
+--                                           expected
+--   category                       raw     corrected
+--   -------------------- ------------- -------------
+--   Number of Reads                878           878
+--   Number of Bases            4605988       3276803
+--   Coverage                   153.533       109.227
+--   Median                        5778           929
+--   Mean                          5246          3732
+--   N50                           8578          8965
+--   Minimum                          0             0
+--   Maximum                      36665         27498
+--   
+--   Maximum Memory           853393040
+
+[TRIMMING/READS]
+--
+-- In sequence store './Alpha.canu.seqStore':
+--   Found 81 reads.
+--   Found 1194702 bases (39.82 times coverage).
+--    
+--    G=1194702                          sum of  ||               length     num
+--    NG         length     index       lengths  ||                range    seqs
+--    ----- ------------ --------- ------------  ||  ------------------- -------
+--    00010        19332         5       132459  ||      12163-12417           8|--------------------------------------------------------
+--    00020        16283        12       253949  ||      12418-12672           7|-------------------------------------------------
+--    00030        15553        19       366048  ||      12673-12927           4|----------------------------
+--    00040        14811        27       487289  ||      12928-13182           7|-------------------------------------------------
+--    00050        14201        35       603779  ||      13183-13437           2|--------------
+--    00060        13896        44       730297  ||      13438-13692           6|------------------------------------------
+--    00070        13440        52       839309  ||      13693-13947           3|---------------------
+--    00080        12936        61       957175  ||      13948-14202           9|---------------------------------------------------------------
+--    00090        12533        71      1084132  ||      14203-14457           1|-------
+--    00100        12163        80      1194702  ||      14458-14712           4|----------------------------
+--    001.000x                  81      1194702  ||      14713-14967           4|----------------------------
+--                                               ||      14968-15222           2|--------------
+--                                               ||      15223-15477           4|----------------------------
+--                                               ||      15478-15732           1|-------
+--                                               ||      15733-15987           2|--------------
+--                                               ||      15988-16242           4|----------------------------
+--                                               ||      16243-16497           2|--------------
+--                                               ||      16498-16752           0|
+--                                               ||      16753-17007           1|-------
+--                                               ||      17008-17262           1|-------
+--                                               ||      17263-17517           1|-------
+--                                               ||      17518-17772           0|
+--                                               ||      17773-18027           0|
+--                                               ||      18028-18282           1|-------
+--                                               ||      18283-18537           0|
+--                                               ||      18538-18792           0|
+--                                               ||      18793-19047           0|
+--                                               ||      19048-19302           1|-------
+--                                               ||      19303-19557           2|--------------
+--                                               ||      19558-19812           0|
+--                                               ||      19813-20067           0|
+--                                               ||      20068-20322           0|
+--                                               ||      20323-20577           0|
+--                                               ||      20578-20832           0|
+--                                               ||      20833-21087           0|
+--                                               ||      21088-21342           0|
+--                                               ||      21343-21597           0|
+--                                               ||      21598-21852           1|-------
+--                                               ||      21853-22107           0|
+--                                               ||      22108-22362           0|
+--                                               ||      22363-22617           0|
+--                                               ||      22618-22872           1|-------
+--                                               ||      22873-23127           0|
+--                                               ||      23128-23382           0|
+--                                               ||      23383-23637           0|
+--                                               ||      23638-23892           0|
+--                                               ||      23893-24147           0|
+--                                               ||      24148-24402           0|
+--                                               ||      24403-24657           1|-------
+--                                               ||      24658-24912           1|-------
+--
+
+[TRIMMING/MERS]
+--
+--  22-mers                                                                                           Fraction
+--    Occurrences   NumMers                                                                         Unique Total
+--       1-     1         0                                                                        0.0000 0.0000
+--       2-     2       498 *                                                                      0.0165 0.0009
+--       3-     4         3                                                                        0.0166 0.0000
+--       5-     7         0                                                                        0.0000 0.0000
+--       8-    11         0                                                                        0.0000 0.0000
+--      12-    16         0                                                                        0.0000 0.0000
+--      17-    22         0                                                                        0.0000 0.0000
+--      23-    29         0                                                                        0.0000 0.0000
+--      30-    37      8961 ******************************                                         0.0167 0.0010
+--      38-    46     20794 ********************************************************************** 0.4716 0.4368
+--
+--           0 (max occurrences)
+--     1161912 (total mers, non-unique)
+--       30256 (distinct mers, non-unique)
+--           0 (unique mers)
+
+[TRIMMING/TRIMMING]
+--  PARAMETERS:
+--  ----------
+--     1000    (reads trimmed below this many bases are deleted)
+--   0.1200    (use overlaps at or below this fraction error)
+--      500    (break region if overlap is less than this long, for 'largest covered' algorithm)
+--        2    (break region if overlap coverage is less than this many reads, for 'largest covered' algorithm)
+--  
+--  INPUT READS:
+--  -----------
+--     959 reads      1194702 bases (reads processed)
+--       0 reads            0 bases (reads not processed, previously deleted)
+--       0 reads            0 bases (reads not processed, in a library where trimming isn't allowed)
+--  
+--  OUTPUT READS:
+--  ------------
+--      62 reads       928975 bases (trimmed reads output)
+--      19 reads       264749 bases (reads with no change, kept as is)
+--     878 reads            0 bases (reads with no overlaps, deleted)
+--       0 reads            0 bases (reads with short trimmed length, deleted)
+--  
+--  TRIMMING DETAILS:
+--  ----------------
+--      21 reads          378 bases (bases trimmed from the 5' end of a read)
+--      53 reads          600 bases (bases trimmed from the 3' end of a read)
+
+[TRIMMING/SPLITTING]
+--  PARAMETERS:
+--  ----------
+--     1000    (reads trimmed below this many bases are deleted)
+--   0.1200    (use overlaps at or below this fraction error)
+--  INPUT READS:
+--  -----------
+--      81 reads      1194702 bases (reads processed)
+--     878 reads            0 bases (reads not processed, previously deleted)
+--       0 reads            0 bases (reads not processed, in a library where trimming isn't allowed)
+--  
+--  PROCESSED:
+--  --------
+--       0 reads            0 bases (no overlaps)
+--       0 reads            0 bases (no coverage after adjusting for trimming done already)
+--       0 reads            0 bases (processed for chimera)
+--       0 reads            0 bases (processed for spur)
+--      81 reads      1194702 bases (processed for subreads)
+--  
+--  READS WITH SIGNALS:
+--  ------------------
+--       0 reads            0 signals (number of 5' spur signal)
+--       0 reads            0 signals (number of 3' spur signal)
+--       0 reads            0 signals (number of chimera signal)
+--       0 reads            0 signals (number of subread signal)
+--  
+--  SIGNALS:
+--  -------
+--       0 reads            0 bases (size of 5' spur signal)
+--       0 reads            0 bases (size of 3' spur signal)
+--       0 reads            0 bases (size of chimera signal)
+--       0 reads            0 bases (size of subread signal)
+--  
+--  TRIMMING:
+--  --------
+--       0 reads            0 bases (trimmed from the 5' end of the read)
+--       0 reads            0 bases (trimmed from the 3' end of the read)
+
+[UNITIGGING/READS]
+--
+-- In sequence store './Alpha.canu.seqStore':
+--   Found 81 reads.
+--   Found 1193724 bases (39.79 times coverage).
+--    
+--    G=1193724                          sum of  ||               length     num
+--    NG         length     index       lengths  ||                range    seqs
+--    ----- ------------ --------- ------------  ||  ------------------- -------
+--    00010        19267         5       132178  ||      12159-12413           8|---------------------------------------------------------------
+--    00020        16274        12       253578  ||      12414-12668           7|--------------------------------------------------------
+--    00030        15542        19       365661  ||      12669-12923           4|--------------------------------
+--    00040        14810        27       486852  ||      12924-13178           7|--------------------------------------------------------
+--    00050        14185        35       603258  ||      13179-13433           2|----------------
+--    00060        13867        44       729676  ||      13434-13688           7|--------------------------------------------------------
+--    00070        13440        52       838488  ||      13689-13943           3|------------------------
+--    00080        12935        61       956314  ||      13944-14198           8|---------------------------------------------------------------
+--    00090        12516        71      1083190  ||      14199-14453           2|----------------
+--    00100        12159        80      1193724  ||      14454-14708           3|------------------------
+--    001.000x                  81      1193724  ||      14709-14963           4|--------------------------------
+--                                               ||      14964-15218           2|----------------
+--                                               ||      15219-15473           4|--------------------------------
+--                                               ||      15474-15728           1|--------
+--                                               ||      15729-15983           2|----------------
+--                                               ||      15984-16238           4|--------------------------------
+--                                               ||      16239-16493           2|----------------
+--                                               ||      16494-16748           1|--------
+--                                               ||      16749-17003           0|
+--                                               ||      17004-17258           1|--------
+--                                               ||      17259-17513           1|--------
+--                                               ||      17514-17768           0|
+--                                               ||      17769-18023           0|
+--                                               ||      18024-18278           1|--------
+--                                               ||      18279-18533           0|
+--                                               ||      18534-18788           0|
+--                                               ||      18789-19043           0|
+--                                               ||      19044-19298           2|----------------
+--                                               ||      19299-19553           1|--------
+--                                               ||      19554-19808           0|
+--                                               ||      19809-20063           0|
+--                                               ||      20064-20318           0|
+--                                               ||      20319-20573           0|
+--                                               ||      20574-20828           0|
+--                                               ||      20829-21083           0|
+--                                               ||      21084-21338           0|
+--                                               ||      21339-21593           0|
+--                                               ||      21594-21848           1|--------
+--                                               ||      21849-22103           0|
+--                                               ||      22104-22358           0|
+--                                               ||      22359-22613           0|
+--                                               ||      22614-22868           1|--------
+--                                               ||      22869-23123           0|
+--                                               ||      23124-23378           0|
+--                                               ||      23379-23633           0|
+--                                               ||      23634-23888           0|
+--                                               ||      23889-24143           0|
+--                                               ||      24144-24398           0|
+--                                               ||      24399-24653           1|--------
+--                                               ||      24654-24908           1|--------
+--
+
+[UNITIGGING/MERS]
+--
+--  22-mers                                                                                           Fraction
+--    Occurrences   NumMers                                                                         Unique Total
+--       1-     1         0                                                                        0.0000 0.0000
+--       2-     2       497 *                                                                      0.0164 0.0009
+--       3-     4         3                                                                        0.0165 0.0000
+--       5-     7         0                                                                        0.0000 0.0000
+--       8-    11         0                                                                        0.0000 0.0000
+--      12-    16         0                                                                        0.0000 0.0000
+--      17-    22         0                                                                        0.0000 0.0000
+--      23-    29         0                                                                        0.0000 0.0000
+--      30-    37      8978 ******************************                                         0.0167 0.0010
+--      38-    46     20777 ********************************************************************** 0.4721 0.4373
+--
+--           0 (max occurrences)
+--     1161844 (total mers, non-unique)
+--       30255 (distinct mers, non-unique)
+--           0 (unique mers)
+
+[UNITIGGING/OVERLAPS]
+--   category            reads     %          read length        feature size or coverage  analysis
+--   ----------------  -------  -------  ----------------------  ------------------------  --------------------
+--   middle-missing          0    0.00        0.00 +- 0.00             0.00 +- 0.00       (bad trimming)
+--   middle-hump             0    0.00        0.00 +- 0.00             0.00 +- 0.00       (bad trimming)
+--   no-5-prime              0    0.00        0.00 +- 0.00             0.00 +- 0.00       (bad trimming)
+--   no-3-prime              0    0.00        0.00 +- 0.00             0.00 +- 0.00       (bad trimming)
+--   
+--   low-coverage            0    0.00        0.00 +- 0.00             0.00 +- 0.00       (easy to assemble, potential for lower quality consensus)
+--   unique                 81   10.90    14737.33 +- 2628.27         38.62 +- 2.91       (easy to assemble, perfect, yay)
+--   repeat-cont             0    0.00        0.00 +- 0.00             0.00 +- 0.00       (potential for consensus errors, no impact on assembly)
+--   repeat-dove             0    0.00        0.00 +- 0.00             0.00 +- 0.00       (hard to assemble, likely won't assemble correctly or even at all)
+--   
+--   span-repeat             0    0.00        0.00 +- 0.00             0.00 +- 0.00       (read spans a large repeat, usually easy to assemble)
+--   uniq-repeat-cont        0    0.00        0.00 +- 0.00                                (should be uniquely placed, low potential for consensus errors, no impact on assembly)
+--   uniq-repeat-dove        0    0.00        0.00 +- 0.00                                (will end contigs, potential to misassemble)
+--   uniq-anchor             0    0.00        0.00 +- 0.00             0.00 +- 0.00       (repeat read, with unique section, probable bad read)
+
+[UNITIGGING/ADJUSTMENT]
+-- No report available.
+
+[UNITIGGING/ERROR RATES]
+--  
+--  ERROR RATES
+--  -----------
+--                                                   --------threshold------
+--  90                           fraction error      fraction        percent
+--  samples                              (1e-5)         error          error
+--                   --------------------------      --------       --------
+--  command line (-eg)                           ->  12000.00       12.0000%
+--  command line (-eM)                           ->  12000.00       12.0000%
+--  mean + std.dev       9.84 +-  12 *    21.16  ->    263.82        0.2638%  (enabled)
+--  median + mad         0.00 +-  12 *     0.00  ->      0.00        0.0000%
+--  90th percentile                              ->     48.00        0.0480%
+--  
+--  BEST EDGE FILTERING
+--  -------------------
+--  At graph threshold 12.0000%, reads:
+--    available to have edges:            9
+--    with at least one edge:             9
+--  
+--  At max threshold 12.0000%, reads:  (not computed)
+--    available to have edges:            0
+--    with at least one edge:             0
+--  
+--  At tight threshold 0.0480%, reads with:
+--    both edges below threshold:         2
+--    one  edge  above threshold:         6
+--    both edges above threshold:         1
+--    at least one edge:                  9
+--  
+--  At loose threshold 0.2638%, reads with:
+--    both edges below threshold:         9
+--    one  edge  above threshold:         0
+--    both edges above threshold:         0
+--    at least one edge:                  9
+--  
+--  
+--  INITIAL EDGES
+--  -------- ----------------------------------------
+--        72 reads are contained
+--       878 reads have no best edges (singleton)
+--         0 reads have only one best edge (spur) 
+--                  0 are mutual best
+--         9 reads have two best edges 
+--                  0 have one mutual best edge
+--                  9 have two mutual best edges
+--  
+--  
+--  FINAL EDGES
+--  -------- ----------------------------------------
+--        72 reads are contained
+--       878 reads have no best edges (singleton)
+--         0 reads have only one best edge (spur) 
+--                  0 are mutual best
+--         9 reads have two best edges 
+--                  0 have one mutual best edge
+--                  9 have two mutual best edges
+--  
+--  
+--  EDGE FILTERING
+--  -------- ------------------------------------------
+--         0 reads are ignored
+--         0 reads have a gap in overlap coverage
+--         0 reads have lopsided best edges
+
+[UNITIGGING/CONTIGS]
+-- Found, in version 1, after unitig construction:
+--   contigs:      1 sequences, total length 44479 bp (including 0 repeats of total length 0 bp).
+--   bubbles:      0 sequences, total length 0 bp.
+--   unassembled:  0 sequences, total length 0 bp.
+--
+-- Contig sizes based on genome size 30kbp:
+--
+--            NG (bp)  LG (contigs)    sum (bp)
+--         ----------  ------------  ----------
+--     10       44479             1       44479
+--     20       44479             1       44479
+--     30       44479             1       44479
+--     40       44479             1       44479
+--     50       44479             1       44479
+--     60       44479             1       44479
+--     70       44479             1       44479
+--     80       44479             1       44479
+--     90       44479             1       44479
+--    100       44479             1       44479
+--    110       44479             1       44479
+--    120       44479             1       44479
+--    130       44479             1       44479
+--    140       44479             1       44479
+--
+
+[UNITIGGING/CONSENSUS]
+-- Found, in version 2, after consensus generation:
+--   contigs:      1 sequences, total length 44567 bp (including 0 repeats of total length 0 bp).
+--   bubbles:      0 sequences, total length 0 bp.
+--   unassembled:  0 sequences, total length 0 bp.
+--
+-- Contig sizes based on genome size 30kbp:
+--
+--            NG (bp)  LG (contigs)    sum (bp)
+--         ----------  ------------  ----------
+--     10       44567             1       44567
+--     20       44567             1       44567
+--     30       44567             1       44567
+--     40       44567             1       44567
+--     50       44567             1       44567
+--     60       44567             1       44567
+--     70       44567             1       44567
+--     80       44567             1       44567
+--     90       44567             1       44567
+--    100       44567             1       44567
+--    110       44567             1       44567
+--    120       44567             1       44567
+--    130       44567             1       44567
+--    140       44567             1       44567
+--
+
