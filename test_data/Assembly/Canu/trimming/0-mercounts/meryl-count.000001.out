@@ -1,0 +1,66 @@
+
+Found perl:
+   /mnt/gvol/langjidong/miniconda3/bin/perl
+   This is perl 5, version 26, subversion 2 (v5.26.2) built for x86_64-linux-thread-multi
+
+Found java:
+   /mnt/gvol/langjidong/miniconda3/bin/java
+   openjdk version "1.8.0_282"
+
+Found canu:
+   /mnt/gvol/langjidong/miniconda3/bin/canu
+   canu branch HEAD +0 changes (r10117 5638f7d9a5379373310ab62c28aa0cdbd864722d)
+
+Running job 1 based on command line options.
+
+Found 1 command tree.
+
+Counting 1166 (estimated) thousand canonical 22-mers from 1 input file:
+    canu-seqStore: ../../Alpha.canu.seqStore
+
+
+SIMPLE MODE
+-----------
+
+  Not possible.
+
+
+COMPLEX MODE
+------------
+
+prefix     # of   struct   kmers/    segs/      min     data    total
+  bits   prefix   memory   prefix   prefix   memory   memory   memory
+------  -------  -------  -------  -------  -------  -------  -------
+     1     2  P  7248  B   583 kM    49  S   128 kB  6272 kB  6279 kB
+     2     4  P    13 kB   291 kM    24  S   256 kB  6144 kB  6157 kB
+     3     8  P    26 kB   145 kM    12  S   512 kB  6144 kB  6170 kB
+     4    16  P    51 kB    72 kM     6  S  1024 kB  6144 kB  6195 kB
+     5    32  P   101 kB    36 kM     3  S  2048 kB  6144 kB  6245 kB
+     6    64  P   203 kB    18 kM     2  S  4096 kB  8192 kB  8395 kB
+     7   128  P   405 kB  9334  M     1  S  8192 kB  8192 kB  8597 kB
+     8   256  P   810 kB  4667  M     1  S    16 MB    16 MB    16 MB
+     9   512  P  1620 kB  2334  M     1  S    32 MB    32 MB    33 MB
+    10  1024  P  3240 kB  1167  M     1  S    64 MB    64 MB    67 MB  Best Value!
+    11  2048  P  6480 kB   584  M     1  S   128 MB   128 MB   134 MB
+    12  4096  P    12 MB   292  M     1  S   256 MB   256 MB   268 MB
+    13  8192  P    25 MB   146  M     1  S   512 MB   512 MB   537 MB
+    14    16 kP    50 MB    73  M     1  S  1024 MB  1024 MB  1074 MB
+    15    32 kP   101 MB    37  M     1  S  2048 MB  2048 MB  2149 MB
+
+
+FINAL CONFIGURATION
+-------------------
+
+Configured complex mode for 0.066 GB memory per batch, and up to 1 batch.
+
+Start counting with THREADED method.
+Used 0.288 GB out of 2.000 GB to store      1047013 kmers.
+
+Writing results to './Alpha.canu.01.meryl.WORKING', using 4 threads.
+finishIteration()--
+
+Finished counting.
+
+Cleaning up.
+
+Bye.
