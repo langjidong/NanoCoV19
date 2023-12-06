@@ -22,3 +22,7 @@ Example:<br>
 
 The method is still under further optimization and development, please contact us if you have any good suggestions and questions.<br>
 ***Contact and E-mail: langjidong@hotmail.com***
+
+***Publication***
+
+Lang J. NanoCoV19: An analytical pipeline for rapid detection of severe acute respiratory syndrome coronavirus 2. Front Genet. 2022 Sep 15;13:1008792. doi: 10.3389/fgene.2022.1008792. PMID: 36186464; PMCID: PMC9520466.
